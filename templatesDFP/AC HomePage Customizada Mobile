@@ -1,0 +1,159 @@
+{
+  "name": "[AC] HomePage Customizada Mobile",
+  "description": "",
+  "variables": [
+    {
+      "label": "Criativo",
+      "uniqueName": "Criativo",
+      "description": "",
+      "isRequired": true,
+      "variableType": "STRING"
+    },
+    {
+      "defaultValue": "320",
+      "sampleValue": "0",
+      "label": "Largura",
+      "uniqueName": "Largura",
+      "description": "",
+      "isRequired": true,
+      "variableType": "STRING"
+    },
+    {
+      "defaultValue": "100",
+      "sampleValue": "0",
+      "label": "Altura",
+      "uniqueName": "Altura",
+      "description": "",
+      "isRequired": true,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "absolute",
+          "value": "absolute"
+        },
+        {
+          "label": "fixed",
+          "value": "fixed"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "absolute",
+      "label": "Position",
+      "uniqueName": "Position",
+      "description": "",
+      "isRequired": true,
+      "variableType": "LIST"
+    },
+    {
+      "defaultValue": "ececec",
+      "sampleValue": "ececec",
+      "label": "fundoAbaCEP",
+      "uniqueName": "fundoAbaCEP",
+      "description": "Aqui você coloca uma imagem de background no fundo da aba de filmes ou digite a cor sem #",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "defaultValue": "fff",
+      "label": "corItemFilmes",
+      "uniqueName": "corItemFilmes",
+      "description": "Aqui você escolhe a cor que fica ao lado das # do filme e etc., digite sem o #",
+      "isRequired": true,
+      "variableType": "STRING"
+    },
+    {
+      "defaultValue": 0,
+      "sampleValue": 0,
+      "label": "NumeroElementos",
+      "uniqueName": "NumeroElementos",
+      "description": "Quantidade de elementos a serem criados na página",
+      "isRequired": true,
+      "variableType": "LONG"
+    },
+    {
+      "label": "estiloElementos",
+      "uniqueName": "estiloElementos",
+      "description": "Digite o CSS dos elementos que foram adicionados da seguinte forma, #estilo0{}; #estilo1{}. etc...",
+      "isRequired": true,
+      "variableType": "STRING"
+    },
+    {
+      "defaultValue": "NULL,#FFF",
+      "label": "customizacaoFonte",
+      "uniqueName": "customizacaoFonte",
+      "description": "Este campo faz com que alteremos a cor e se quisermos uma fonte customizada, coloque os campos da seguinte forma linkDaFonteCustomizada,corDaFonte separando-as por vírgula, se não tiver nenhum valor, coloque NULL",
+      "isRequired": true,
+      "variableType": "STRING"
+    },
+    {
+      "defaultValue": "FFF",
+      "label": "contentLayoutBackground",
+      "uniqueName": "contentLayoutBackground",
+      "description": "Coloque caso haja um fundo customizado ou apenas a cor em hexadecimal sem o #",
+      "isRequired": true,
+      "variableType": "STRING"
+    },
+    {
+      "label": "estiloCorpo",
+      "uniqueName": "estiloCorpo",
+      "description": "estilos do css referentes a página, como contentLayout, body, etc",
+      "isRequired": true,
+      "variableType": "STRING"
+    },
+    {
+      "isTrackingUrl": false,
+      "urlType": "STANDARD_HTTP",
+      "label": "Link de Destino",
+      "uniqueName": "LinkdeDestino",
+      "description": "",
+      "isRequired": true,
+      "variableType": "URL"
+    },
+    {
+      "defaultValue": "#000000",
+      "label": "Cor de Fundo",
+      "uniqueName": "CordeFundo",
+      "description": "",
+      "isRequired": true,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "HTML + LINK",
+          "value": "HTML + LINK"
+        },
+        {
+          "label": "HTML Interativo",
+          "value": "HTML Interativo"
+        },
+        {
+          "label": "Script Personalizado",
+          "value": "Script Personalizado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "label": "Tipo do Arquivo",
+      "uniqueName": "TipodoArquivo",
+      "description": "",
+      "isRequired": true,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Script Customizado",
+      "uniqueName": "ScriptCustomizado",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    }
+  ],
+  "formatter": "\u003cstyle type\u003d\"text/css\"\u003e\n  #click {\n    position: fixed;\n    width: 100%;\n    height: 100%;\n    top: 0;\n    left: 0;\n    display: block;\n  }\n\n  #criativo-script, #criativo-interativo, #criativo-html {\n    position: relative;\n    transform: translateX(-50%);\n    left: 50%;\n    z-index: 2;\n  }\n\n  @media (min-width: 0px) and (max-width: 767px) {\n    #criativo-script iframe, #criativo-interativo iframe, #criativo-html iframe {\n      width: 100%;\n      /*height: [%Altura%];*/\n    }\n  }\n\n  @media (min-width: 768px) and (max-width:1024px) {\n    #criativo-script iframe, #criativo-interativo iframe, #criativo-html iframe {\n      width: 1024px;\n      height: 230px;\n    }\n  }\n\u003c/style\u003e\n\n\u003cscript type\u003d\"text/javascript\"\u003e\n  \n  top.document.getElementsByClassName(\u0027section section-wrap\u0027)[0].id \u003d \u0027abaFilmes\u0027;\n  \n  /* IF\u0027s do background de cada elemento */\n  \n  if(\u0027[%CordeFundo%]\u0027.indexOf(\u0027http\u0027) !\u003d\u003d -1){\n    var corDeFundo \u003d \u0027background: url([%CordeFundo%]);\u0027;\n  } else{\n    var corDeFundo \u003d \u0027background: #[%CordeFundo%];\u0027;\n  }\n  \n  if(\u0027[%contentLayoutBackground%]\u0027.indexOf(\u0027http\u0027) !\u003d\u003d -1){\n    var contentLayoutBackground \u003d \u0027background: url([%contentLayoutBackground%])\u0027;\n  } else{\n    var contentLayoutBackground \u003d \u0027background: #[%contentLayoutBackground%]\u0027;\n  }\n  \n  if(\u0027[%fundoAbaCEP%]\u0027.indexOf(\u0027http\u0027)!\u003d\u003d -1){\n    var fundoCEP \u003d \u0027section#abaFilmes .search-theater {background:url([%fundoAbaCEP%]);}\u0027;\n  } else{\n    var fundoCEP \u003d \u0027section#abaFilmes .search-theater {background: #[%fundoAbaCEP%];}\u0027;\n  }\n  \n  var div \u003d top.document.createElement(\"div\");\n  div.id \u003d \"anima\";\n  top.document.getElementsByTagName(\"body\")[0].appendChild(div);\n\n  for(i \u003d 1; i \u003c\u003d [%NumeroElementos%]; i++){\n    var divs \u003d document.createElement(\u0027div\u0027);\n    divs.id \u003d \u0027elemento\u0027 + i;\n    divs.addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%LinkdeDestino%]\u0027,\u0027_blank\u0027);\n    });\n    top.document.getElementById(\u0027anima\u0027).appendChild(divs);\n  }\n  \n  var splitFonte \u003d \u0027[%customizacaoFonte%]\u0027.split(\u0027,\u0027);\n   \n  if(splitFonte[0] \u003d\u003d \"NULL\"){\n    var customizacaoFonte \u003d \u0027a,.third-nav .item-more-picto,.titlebar-title-lg,section.gd-2-cols.gd-gap-30.section.section-wrap .titlebar h3.titlebar-title{color:\u0027 + splitFonte[1] + \u0027!important;}\u0027;\n  } else{\n    var customizacaoFonte \u003d \u0027@font-face {color:\u0027 + splitFonte[1] + \u0027;font-family: customFont;src: url(\u0027 + splitFonte[0] + \u0027);}a,.titlebar-title-lg,section.gd-2-cols.gd-gap-30.section.section-wrap .titlebar h3.titlebar-title{font-family: customFont !important;}\u0027;\n  }\n  \n  //css\n  var css \u003d \"\",\n  head \u003d top.document.head || top.document.getElementsByTagName(\"head\")[0], style \u003d document.createElement(\"style\");\n  style.type \u003d \"text/css\";\n  style.id \u003d \"WHPC\";\n\n  css \u003d\n    `#anima \u003e div{position: absolute; display: block; z-index: 1000;}` + \n    `.label-wrapper .label-soon{color: #000 !important;}` + //deixa a cor preta do texto \"NOS CINEMAS\" dentro da aba MAIS ESPERADOS.\n    `@media (min-width: 0px) and (max-width: 767px) {#dfp-masthead iframe{width: 100%; height: ` + top.document.getElementsByClassName(\u0027main-banner\u0027)[0].getClientRects()[0].height + `px;}}` +\n    `@media (min-width: 768px) and (max-width: 1024px) {#dfp-masthead iframe{width: 970px; height: 250px;}}` + customizacaoFonte + fundoCEP +\n    `#dfp-masthead{ position: [%Position%]; padding: 0; top:` + top.document.getElementsByTagName(\u0027header\u0027)[0].getClientRects()[0].height + `px; z-index: 999;` + corDeFundo + `;width:100%;}` +\n    `#content-layout{` + contentLayoutBackground + `;}a.item{color: #[%corItemFilmes%] !important;}` + \n    `[%estiloCorpo%]` + \n    `[%estiloElementos%]` +\n    `.label.label-soon.label-soon-theater{\n      color: #000 !important;\n    }`;\n\t\n  /* Insere dentro do site a lib do animate.css, caso precise utilizar alguma animação diferente. */\n  var animate \u003d document.createElement(\"link\");\n  animate.rel \u003d \"stylesheet\";\n  animate.type \u003d \"text/css\";\n  animate.href \u003d \"https://opec.itdg.com.br/opec/teste/css/animate.css\";\n\n  style.appendChild(document.createTextNode(css));\n  head.appendChild(style);\n  head.appendChild(animate);\n  top.document.getElementsByTagName(\"header\")[0].style.zIndex \u003d \"9999\";\n\u003c/script\u003e\n\n\u003cdiv id\u003d\"criativo-script\"\u003e\n  [%Criativo%]\n\u003c/div\u003e\n\n\u003cdiv id\u003d\"criativo-interativo\"\u003e\n  \u003ciframe src\u003d\"[%Criativo%]?click\u003d%%CLICK_URL_UNESC%%[%LinkdeDestino%]\" frameborder\u003d\"0\" width\u003d\"[%Largura%]\"\n    height\u003d\"[%Altura%]\" scrolling\u003d\"no\"\u003e\u003c/iframe\u003e\n\u003c/div\u003e\n\n\u003cdiv id\u003d\"criativo-html\"\u003e\n  \u003ca id\u003d\"click\" href\u003d\"%%CLICK_URL_UNESC%%[%LinkdeDestino%]\" target\u003d\"_blank\"\u003e\u003c/a\u003e\n  \u003ciframe src\u003d\"[%Criativo%]\" frameborder\u003d\"0\" width\u003d\"[%Largura%]\" height\u003d\"[%Altura%]\" scrolling\u003d\"no\"\u003e\u003c/iframe\u003e\n\u003c/div\u003e\n\n\u003cscript\u003e\n\n  if (\u0027[%TipodoArquivo%]\u0027 \u003d\u003d \u0027HTML + LINK\u0027) {\n    var criativo1 \u003d document.getElementById(\u0027criativo-script\u0027);\n    var criativo2 \u003d document.getElementById(\u0027criativo-interativo\u0027);\n    var criativoAtual \u003d document.getElementById(\u0027criativo-html\u0027);\n  } else if (\u0027[%TipodoArquivo%]\u0027 \u003d\u003d \u0027HTML Interativo\u0027) {\n    var criativo1 \u003d document.getElementById(\u0027criativo-script\u0027);\n    var criativo2 \u003d document.getElementById(\u0027criativo-html\u0027);\n    var criativoAtual \u003d document.getElementById(\u0027criativo-interativo\u0027);\n  } else {\n    var criativo1 \u003d document.getElementById(\u0027criativo-html\u0027);\n    var criativo2 \u003d document.getElementById(\u0027criativo-interativo\u0027);\n    var criativoAtual \u003d document.getElementById(\u0027criativo-script\u0027);\n  }\n  criativo1.parentNode.removeChild(criativo1);\n  criativo2.parentNode.removeChild(criativo2);\n  \n  criativoAtual.getElementsByTagName(\u0027iframe\u0027)[0].style.cssText \u003d \u0027height: \u0027 + top.document.getElementById(\u0027dfp-masthead\u0027).getClientRects()[0].height + \u0027px;\u0027;\n\u003c/script\u003e\n\n[%ScriptCustomizado%]",
+  "omidPartnerName": "",
+  "type": "USER_DEFINED",
+  "isInterstitial": false,
+  "isNativeEligible": false,
+  "isNativeVideoEligible": false,
+  "isSafeFrameCompatible": false
+}
