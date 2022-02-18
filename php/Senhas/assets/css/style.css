@@ -1,0 +1,77 @@
+body{
+	background-color: #000;
+	color: #FFF;
+}
+table{
+  margin: 0 auto;
+  border: 1 px solid #ccc;
+  font-style: bold;
+  vertical-align: middle;
+}
+
+p.versenha:hover {
+  color: #ff0000;
+}
+
+img{
+  vertical-align: middle;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-color: #999;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: break-word;
+  border-color: #999;
+  color: #444;
+  background-color: #F7FDFA;
+}
+
+.tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: break-word;
+  border-color: #999;
+  color: #fff;
+  background-color: #26ADE4;
+  position: sticky;
+  top: -1px;
+}
+
+.tg .tg-mb3i {
+  background-color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.tg .tg-lqy6 {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.tg .tg-yw4l {
+  vertical-align: middle;
+}
+
+.tg .tg-6k2t {
+  background-color: #fff;
+  vertical-align: middle;
+  text-align: center;
+}
