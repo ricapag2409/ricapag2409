@@ -1,0 +1,166 @@
+{
+  "name": "[AC] Showtime Video / HTML",
+  "description": "",
+  "variables": [
+    {
+      "label": "Criativo",
+      "uniqueName": "Criativo",
+      "description": "",
+      "isRequired": true,
+      "variableType": "STRING"
+    },
+    {
+      "defaultValue": 1800,
+      "sampleValue": 0,
+      "label": "Largura",
+      "uniqueName": "Largura",
+      "description": "",
+      "isRequired": true,
+      "variableType": "LONG"
+    },
+    {
+      "defaultValue": 1000,
+      "sampleValue": 0,
+      "label": "Altura",
+      "uniqueName": "Altura",
+      "description": "",
+      "isRequired": true,
+      "variableType": "LONG"
+    },
+    {
+      "defaultValue": 230,
+      "sampleValue": 0,
+      "label": "Abertura",
+      "uniqueName": "Abertura",
+      "description": "",
+      "isRequired": true,
+      "variableType": "LONG"
+    },
+    {
+      "isTrackingUrl": false,
+      "urlType": "STANDARD_HTTP",
+      "label": "Link de Destino",
+      "uniqueName": "LinkdeDestino",
+      "description": "",
+      "isRequired": true,
+      "variableType": "URL"
+    },
+    {
+      "choices": [
+        {
+          "label": "fixed",
+          "value": "fixed"
+        },
+        {
+          "label": "absolute",
+          "value": "absolute"
+        }
+      ],
+      "allowOtherChoice": false,
+      "label": "Position",
+      "uniqueName": "Position",
+      "description": "",
+      "isRequired": true,
+      "variableType": "LIST"
+    },
+    {
+      "choices": [
+        {
+          "label": "HTML + LINK",
+          "value": "HTML + LINK"
+        },
+        {
+          "label": "HTML Interativo",
+          "value": "HTML Interativo"
+        },
+        {
+          "label": "Script Personalizado",
+          "value": "Script Personalizado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "label": "Tipo do Arquivo",
+      "uniqueName": "TipodoArquivo",
+      "description": "",
+      "isRequired": true,
+      "variableType": "LIST"
+    },
+    {
+      "choices": [
+        {
+          "label": "HTML",
+          "value": "HTML"
+        },
+        {
+          "label": "Video",
+          "value": "Video"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Video",
+      "sampleValue": "Video",
+      "label": "tipoShowtime",
+      "uniqueName": "tipoShowtime",
+      "description": "Escolha se o showtime a ser veiculado é no formato HTML ou Video",
+      "isRequired": true,
+      "variableType": "LIST"
+    },
+    {
+      "defaultValue": 30,
+      "sampleValue": 30,
+      "label": "tempoFecharHTML",
+      "uniqueName": "tempoFecharHTML",
+      "description": "Como não temos nenhuma forma de fechar o banner após sua exibição como tinhamos no video, esta variável foi criada visando apenas o uso do showTime HTML, determine quanto tempo deseja que a tela inicial se feche",
+      "isRequired": false,
+      "variableType": "LONG"
+    },
+    {
+      "label": "Cor de Fundo",
+      "uniqueName": "CordeFundo",
+      "description": "",
+      "isRequired": true,
+      "variableType": "STRING"
+    },
+    {
+      "isTrackingUrl": false,
+      "urlType": "STANDARD_HTTP",
+      "label": "Link Video / HTML",
+      "uniqueName": "LinkVideoHTML",
+      "description": "",
+      "isRequired": true,
+      "variableType": "URL"
+    },
+    {
+      "defaultValue": 1920,
+      "sampleValue": 1920,
+      "label": "Largura Video / HTML",
+      "uniqueName": "LarguraVideoHTML",
+      "description": "",
+      "isRequired": true,
+      "variableType": "LONG"
+    },
+    {
+      "defaultValue": 1080,
+      "sampleValue": 0,
+      "label": "Altura Video / HTML",
+      "uniqueName": "AlturaVideoHTML",
+      "description": "",
+      "isRequired": true,
+      "variableType": "LONG"
+    },
+    {
+      "label": "Script Customizado",
+      "uniqueName": "ScriptCustomizado",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    }
+  ],
+  "formatter": "\u003cscript\u003e\n\n  var css \u003d \"\",\n  head \u003d top.document.head || top.document.getElementsByTagName(\"head\")[0],\n  style \u003d document.createElement(\"style\");\n  style.type \u003d \"text/css\";\n\n  css \u003d \"#dfp-masthead {position: [%Position%]; width: 100%!important; height: 100%!important; top: 0px; left: 0;}\"+\n  \"#dfp-masthead div, #dfp-masthead div iframe {position: absolute; width: 100%!important; height: 100%!important; top: 0; left: 0;}\"+\n  \"header{z-index: 1000; position: relative; width: 1024px; margin: 0 auto;}\"+\n  \"main{position: relative; width: 1024px; margin: 0 auto; }\"+\n  \"#dfp-footer{ z-index: 1000; position: relative;  width: 1024px; margin: 0px auto; background: #fff;}\"+\n  \"body{padding-top:\"+ (Number([%Abertura%]) + top.document.getElementsByTagName(\u0027header\u0027)[0].getClientRects()[0].height).toString() + \"px;background-color:#[%CordeFundo%];}\"+\n  \"#content-layout{position:relative;}\"+\n  \"footer{ z-index: 1000; position: relative; width: 1024px; margin: 0 auto;}\"+\n  \"#video-container::-webkit-scrollbar {width: 8px;}\"+\n  \"#video-container::-webkit-scrollbar-thumb {background-color: #D62929; border-radius: 10px;}\"+\n  \"#video-container::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); border-radius: 10px;}\"+\n  \".wrapper-ad {position: absolute; width: 100%; height: [%Altura%]px; top: 0px; left: 0;}\"+\n  \"#dfp-masthead{z-index: 999}\"+\n  \"#wads_po_dfp-masthead_p{display:none;}\" +\n  \".site-ac { width: 1024px; z-index: 5; left: 50%; margin-left: -512px; position: relative;}\" +\n  \"#player-emergence{z-index: 1000 !important;}\";\n\n  style.appendChild(document.createTextNode(css)); \n  head.appendChild(style); \n\n\u003c/script\u003e\n\n\u003cstyle\u003e\n\n#click {\n  position: fixed; \n  width: 100%; \n  height: 100%; \n  top: 0;\n  left: 0; \n  display: block;\n  z-index: 10000;\n}\n\n#criativo-script, #criativo-interativo, #criativo-html {\n  position: fixed; \n  left: 50%; \n  margin-left: calc(-[%Largura%]px/2); \n  top: 0;\n  width: [%Largura%]px; \n  height:[%Altura%]px; \n  z-index: 1;\n}\n\n#close{\n  position: fixed; \n  z-index: 99999999; \n  height: 14px; \n  top: 25px; \n  right: 25px; \n  padding: 15px; \n  font-size: 16px; \n  line-height: 14px; \n  color: #fff; \n  background-color: #000; \n  cursor: pointer; \n  font-family: Montserrat, sans-serif; \n  border: 2px #fff solid;\n  border-radius: 5px;\n}\n\n.wallpaper-wrapper{\n  position:[%Position%];\n  width: 100%;\n  height: [%Altura%]px;\n  top: 0px;\n  overflow-x: hidden;\n  overflow-y: scroll;\n  text-align: center;\n  z-index:2;\n  cursor:pointer;\n  display:block;\n  background: #000;\n}\n\n.video-container{\n  background-color:#000;\n  height: [%AlturaVideoHTML%]px;\n  width: [%LarguraVideoHTML%]px;\n  position:absolute;\n  top:0px;\n  left:50%;\n  margin-left:calc(-[%LarguraVideoHTML%]px/2);\n  z-index:9999;\n  overflow-y:auto;\n  overflow-x:hidden;\n  cursor:pointer;\n}\n\n#video-showtime{\n  position:relative;\n  top:0px;\n  left:0px;\n  background: transparent; \n  margin:0 auto; \n  display:block;\n}\n\n#somon{\n  position: absolute; \n  z-index: 999999; \n  background:url(\u0027https://image.flaticon.com/icons/svg/149/149135.svg\u0027) #fff; \n  width: 50px; \n  height: 50px; \n  display: none; \n  border-radius: 25px;\n  cursor: pointer;\n  top: 25px;\n  left: 25px;\n}\n\n#somoff{\n  position: absolute; \n  z-index: 999999; \n  background:url(\u0027https://image.flaticon.com/icons/svg/149/149138.svg\u0027) #fff; \n  width: 50px; \n  height: 50px; \n  display: block; \n  border-radius: 25px;\n  cursor: pointer;\n  top: 25px;\n  left: 25px;\n}\n\n::-webkit-scrollbar {\n  width: 5px;\n}\n\n::-webkit-scrollbar-track {\n  background: #dddddd; \n}\n\n::-webkit-scrollbar-thumb {\n  background: #ff0000; \n}\n\u003c/style\u003e\n\n\u003cdiv class\u003d\"wrapper-ad\"\u003e\n  \u003ca id\u003d\"somon\"\u003e\u003c/a\u003e\n  \u003ca id\u003d\"somoff\"\u003e\u003c/a\u003e\n  \u003ca href\u003d\"#\" id\u003d\"close\"\u003e[X] FECHAR\u003c/a\u003e\n  \u003cdiv class\u003d\"wallpaper-wrapper\"\u003e\n    \u003cdiv class\u003d\"video-container\"\u003e\u003c/div\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n\n\n\u003cdiv id\u003d\"criativo-script\"\u003e\n  [%Criativo%]\n\u003c/div\u003e\n\n\u003cdiv id\u003d\"criativo-interativo\"\u003e\n  \u003ciframe src\u003d\"[%Criativo%]?click\u003d%%CLICK_URL_UNESC%%[%LinkdeDestino%]\" frameborder\u003d\"0\" width\u003d\"[%Largura%]\" height\u003d\"[%Altura%]\" scrolling\u003d\"no\"\u003e\u003c/iframe\u003e\n\u003c/div\u003e\n\n\u003cdiv id\u003d\"criativo-html\"\u003e\n  \u003ca id\u003d\"click\" href\u003d\"%%CLICK_URL_UNESC%%[%LinkdeDestino%]\" target\u003d\"_blank\"\u003e\u003c/a\u003e\n  \u003ciframe src\u003d\"[%Criativo%]\" frameborder\u003d\"0\" width\u003d\"[%Largura%]\" height\u003d\"[%Altura%]\" scrolling\u003d\"no\"\u003e\u003c/iframe\u003e\n\u003c/div\u003e\n\n\u003cscript\u003e\n\n  if(\u0027[%tipoShowtime%]\u0027 \u003d\u003d \u0027Video\u0027){\n    document.getElementsByClassName(\u0027video-container\u0027)[0].innerHTML \u003d \u0027\u003cvideo id\u003d\"video-showtime\" src\u003d\"[%LinkVideoHTML%]\" height\u003d\"auto\" muted autoplay\u003e\u003c/video\u003e\u0027;\n  } else{\n    document.getElementById(\"somon\").style.display \u003d \u0027none\u0027;\n    document.getElementById(\"somoff\").style.display \u003d \u0027none\u0027;\n    document.getElementsByClassName(\u0027video-container\u0027)[0].innerHTML \u003d \u0027\u003ciframe id\u003d\"video-showtime\" src\u003d\"[%LinkVideoHTML%]?click\u003d%%CLICK_URL_UNESC%%[%LinkdeDestino%]\" width\u003d\"[%LarguraVideoHTML%]\" height\u003d\"[%AlturaVideoHTML%]\"\u003e\u003c/iframe\u003e\u0027;\n  }\n\n  if (\u0027[%TipodoArquivo%]\u0027 \u003d\u003d \u0027HTML + LINK\u0027){\n    var criativo1 \u003d document.getElementById(\u0027criativo-script\u0027);\n    var criativo2 \u003d document.getElementById(\u0027criativo-interativo\u0027);\n    \n    var createA \u003d document.createElement(\u0027a\u0027);\n    createA.href\u003d\u0027%%CLICK_URL_UNESC%%[%LinkdeDestino%]\u0027;\n    createA.target \u003d \u0027_blank\u0027;\n    createA.id\u003d\u0027click\u0027;\n    document.getElementsByClassName(\u0027wrapper-ad\u0027)[0].insertAdjacentElement(\u0027afterbegin\u0027,createA);\n  } else if (\u0027[%TipodoArquivo%]\u0027 \u003d\u003d \u0027HTML Interativo\u0027){\n    var criativo1 \u003d document.getElementById(\u0027criativo-script\u0027);\n    var criativo2 \u003d document.getElementById(\u0027criativo-html\u0027);\n  } else {\n    var criativo1 \u003d document.getElementById(\u0027criativo-html\u0027);\n    var criativo2 \u003d document.getElementById(\u0027criativo-interativo\u0027);\n  }\n\n  criativo1.parentNode.removeChild(criativo1);\n  criativo2.parentNode.removeChild(criativo2);\n\u003c/script\u003e\n\n\u003cscript type\u003d\"text/javascript\"\u003e\n  top.document.getElementsByTagName(\u0027body\u0027)[0].style.overflow \u003d \"hidden\";\n  var video \u003d document.getElementById(\"video-showtime\");\n\n  top.window.scrollTo(0,0);\n\n  document.getElementById(\u0027close\u0027).onclick \u003d function(){\n    ends();\n  }\n\n  somon.addEventListener(\"click\", function(){\n    off();\n  });\n\n  somoff.addEventListener(\"click\", function(){\n    on();\n  });\n\n  function on() {\n    video.muted \u003d false;\n    somoff.style.display \u003d \"none\";\n    somon.style.display \u003d \"block\";\n  }\n\n  function off() {\n    video.muted \u003d true;\n    somoff.style.display \u003d \"block\";\n    somon.style.display \u003d \"none\";\n  }\n\n  video.onended \u003d function() {\n    ends();\n  }\n\n  if(\u0027[%tipoShowtime%]\u0027 \u003d\u003d \u0027HTML\u0027){\n    setTimeout(function(){\n      ends();\n    },[%tempoFecharHTML%] * 1000);\n  }\n\n  function ends(){\n    console.log(\"chamou função ends\");\n    top.window.scrollTo(0,0);\n    /*$(\u0027#video-container\u0027).fadeOut(\u0027slow\u0027);*/\n    top.document.getElementsByTagName(\"body\")[0].style.overflow \u003d \u0027auto\u0027;\n    document.getElementById(\"video-showtime\").remove();\n    document.getElementById(\"close\").remove();\n    document.getElementsByClassName(\"wrapper-ad\")[0].remove();\n    top.document.getElementById(\"content-layout\").style.zIndex \u003d \"1000\";\n    top.document.getElementsByTagName(\"main\")[0].style.zIndex \u003d \"999\";\n\n    if (top.document.getElementsByClassName(\"main-header\")[0]) {\n      top.document.getElementsByClassName(\"main-header\")[0].style.zIndex \u003d \"1000\";\n    }\n\n    if (top.document.getElementsByClassName(\"header-main\")[0]) {\n      top.document.getElementsByClassName(\"header-main\")[0].style.zIndex \u003d \"1000\";\n      top.document.getElementsByClassName(\"header-main\")[0].style.width \u003d \"100%\";\n      top.document.getElementById(\"dfp-masthead\").style.top \u003d \"129px\";\n      top.document.onscroll \u003d function(){\n        setTimeout(function(){\n          var headermin \u003d top.document.getElementsByClassName(\"header-min\")[0];\n          if (headermin) {\n            top.document.getElementById(\"dfp-masthead\").style.top \u003d \"64px\";\n          } else {\n            top.document.getElementById(\"dfp-masthead\").style.top \u003d \"129px\";\n          }\n        },10);\n      };\n    }\n  }\n\n  /* Gambiarra por causa da div de altura mínima */\n  if (top.document.getElementsByClassName(\"main-banner\")[0]) {\n    top.document.getElementsByClassName(\"main-banner\")[0].style.cssText \u003d \"min-height: auto;\";\n  }\n  \n\u003c/script\u003e\n\n[%ScriptCustomizado%]",
+  "omidPartnerName": "",
+  "type": "USER_DEFINED",
+  "isInterstitial": false,
+  "isNativeEligible": false,
+  "isNativeVideoEligible": false,
+  "isSafeFrameCompatible": false
+}
