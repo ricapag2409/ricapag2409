@@ -1,0 +1,2015 @@
+{
+  "name": "[TG] Menu Único 30 Itens + Slider - OOP",
+  "description": "",
+  "variables": [
+    {
+      "choices": [
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        },
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu 1",
+      "uniqueName": "Menu1",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "sampleValue": "2019-01-01T00:00:00",
+      "label": "Menu 1 Entrada",
+      "uniqueName": "Menu1Entrada",
+      "description": "Usar data no seguinte formato: YYYY-MM-DDTHH:MM:SS",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "sampleValue": "2019-01-01T23:59:59",
+      "label": "Menu 1 Saida",
+      "uniqueName": "Menu1Saida",
+      "description": "Usar data no seguinte formato: YYYY-MM-DDTHH:MM:SS",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 1 Texto",
+      "uniqueName": "MenuTexto1",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 1 Criativo",
+      "uniqueName": "MenuCriativo1",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 1 Link de Destino",
+      "uniqueName": "MenuLink1",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "selo1RetangularImg",
+      "uniqueName": "selo1RetangularImg",
+      "description": "Nesta variável, hospede o fundo que ficará no selo retangular, atrás do logotipo.",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 1 Pixel Contador",
+      "uniqueName": "PixelContador1",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        },
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu 2",
+      "uniqueName": "Menu2",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "sampleValue": "2019-01-01T00:00:00",
+      "label": "Menu 2 Entrada",
+      "uniqueName": "Menu2Entrada",
+      "description": "Usar data no seguinte formato: YYYY-MM-DDTHH:MM:SS",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "sampleValue": "2019-01-01T23:59:59",
+      "label": "Menu 2 Saida",
+      "uniqueName": "Menu2Saida",
+      "description": "Usar data no seguinte formato: YYYY-MM-DDTHH:MM:SS",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 2 Texto",
+      "uniqueName": "MenuTexto2",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 2 Criativo",
+      "uniqueName": "MenuCriativo2",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 2 Link de Destino",
+      "uniqueName": "MenuLink2",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "selo2RetangularImg",
+      "uniqueName": "selo2RetangularImg",
+      "description": "Nesta variável, hospede o fundo que ficará no selo retangular, atrás do logotipo.",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 2 Pixel Contador",
+      "uniqueName": "PixelContador2",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        },
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu 3",
+      "uniqueName": "Menu3",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "sampleValue": "2019-01-01T00:00:00",
+      "label": "Menu 3 Entrada",
+      "uniqueName": "Menu3Entrada",
+      "description": "Usar data no seguinte formato: YYYY-MM-DDTHH:MM:SS",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "sampleValue": "2019-01-01T23:59:59",
+      "label": "Menu 3 Saida",
+      "uniqueName": "Menu3Saida",
+      "description": "Usar data no seguinte formato: YYYY-MM-DDTHH:MM:SS",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 3 Texto",
+      "uniqueName": "MenuTexto3",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 3 Criativo",
+      "uniqueName": "MenuCriativo3",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 3 Link de Destino",
+      "uniqueName": "MenuLink3",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "defaultValue": "Nesta variável, hospede o fundo que ficará no selo retangular, atrás do logotipo.",
+      "label": "selo3RetangularImg",
+      "uniqueName": "selo3RetangularImg",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 3 Pixel Contador",
+      "uniqueName": "PixelContador3",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        },
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu 4",
+      "uniqueName": "Menu4",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "sampleValue": "2019-01-01T00:00:00",
+      "label": "Menu 4 Entrada",
+      "uniqueName": "Menu4Entrada",
+      "description": "Usar data no seguinte formato: YYYY-MM-DDTHH:MM:SS",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "sampleValue": "2019-01-01T23:59:59",
+      "label": "Menu 4 Saida",
+      "uniqueName": "Menu4Saida",
+      "description": "Usar data no seguinte formato: YYYY-MM-DDTHH:MM:SS",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 4 Texto",
+      "uniqueName": "MenuTexto4",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 4 Criativo",
+      "uniqueName": "MenuCriativo4",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 4 Link de Destino",
+      "uniqueName": "MenuLink4",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "selo4RetangularImg",
+      "uniqueName": "selo4RetangularImg",
+      "description": "Nesta variável, hospede o fundo que ficará no selo retangular, atrás do logotipo.",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 4 Pixel Contador",
+      "uniqueName": "PixelContador4",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        },
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu 5",
+      "uniqueName": "Menu5",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "sampleValue": "2019-01-01T00:00:00",
+      "label": "Menu 5 Entrada",
+      "uniqueName": "Menu5Entrada",
+      "description": "Usar data no seguinte formato: YYYY-MM-DDTHH:MM:SS",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "sampleValue": "2019-01-01T23:59:59",
+      "label": "Menu 5 Saida",
+      "uniqueName": "Menu5Saida",
+      "description": "Usar data no seguinte formato: YYYY-MM-DDTHH:MM:SS",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 5 Texto",
+      "uniqueName": "MenuTexto5",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 5 Criativo",
+      "uniqueName": "MenuCriativo5",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 5 Link de Destino",
+      "uniqueName": "MenuLink5",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "selo5RetangularImg",
+      "uniqueName": "selo5RetangularImg",
+      "description": "Nesta variável, hospede o fundo que ficará no selo retangular, atrás do logotipo.",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 5 Pixel Contador",
+      "uniqueName": "PixelContador5",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        },
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu 6",
+      "uniqueName": "Menu6",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "sampleValue": "2019-01-01T00:00:00",
+      "label": "Menu 6 Entrada",
+      "uniqueName": "Menu6Entrada",
+      "description": "Usar data no seguinte formato: YYYY-MM-DDTHH:MM:SS",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "sampleValue": "2019-01-01T23:59:59",
+      "label": "Menu 6 Saida",
+      "uniqueName": "Menu6Saida",
+      "description": "Usar data no seguinte formato: YYYY-MM-DDTHH:MM:SS",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 6 Texto",
+      "uniqueName": "MenuTexto6",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 6 Criativo",
+      "uniqueName": "MenuCriativo6",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 6 Link de Destino",
+      "uniqueName": "MenuLink6",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "selo6RetangularImg",
+      "uniqueName": "selo6RetangularImg",
+      "description": "Nesta variável, hospede o fundo que ficará no selo retangular, atrás do logotipo.",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 6 Pixel Contador",
+      "uniqueName": "PixelContador6",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        },
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu 7",
+      "uniqueName": "Menu7",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "sampleValue": "2019-01-01T00:00:00",
+      "label": "Menu 7 Entrada",
+      "uniqueName": "Menu7Entrada",
+      "description": "Usar data no seguinte formato: YYYY-MM-DDTHH:MM:SS",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "sampleValue": "2019-01-01T23:59:59",
+      "label": "Menu 7 Saida",
+      "uniqueName": "Menu7Saida",
+      "description": "Usar data no seguinte formato: YYYY-MM-DDTHH:MM:SS",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 7 Texto",
+      "uniqueName": "MenuTexto7",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 7 Criativo",
+      "uniqueName": "MenuCriativo7",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 7 Link de Destino",
+      "uniqueName": "MenuLink7",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "selo7RetangularImg",
+      "uniqueName": "selo7RetangularImg",
+      "description": "Nesta variável, hospede o fundo que ficará no selo retangular, atrás do logotipo.",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 7 Pixel Contador",
+      "uniqueName": "PixelContador7",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        },
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu 8",
+      "uniqueName": "Menu8",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "sampleValue": "2019-01-01T00:00:00",
+      "label": "Menu 8 Entrada",
+      "uniqueName": "Menu8Entrada",
+      "description": "Usar data no seguinte formato: YYYY-MM-DDTHH:MM:SS",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "sampleValue": "2019-01-01T23:59:59",
+      "label": "Menu 8 Saida",
+      "uniqueName": "Menu8Saida",
+      "description": "Usar data no seguinte formato: YYYY-MM-DDTHH:MM:SS",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 8 Texto",
+      "uniqueName": "MenuTexto8",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 8 Criativo",
+      "uniqueName": "MenuCriativo8",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 8 Link de Destino",
+      "uniqueName": "MenuLink8",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "selo8RetangularImg",
+      "uniqueName": "selo8RetangularImg",
+      "description": "Nesta variável, hospede o fundo que ficará no selo retangular, atrás do logotipo.",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 8 Pixel Contador",
+      "uniqueName": "PixelContador8",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu9",
+      "uniqueName": "Menu9",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu9Entrada",
+      "uniqueName": "Menu9Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu9Saida",
+      "uniqueName": "Menu9Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 9 Texto",
+      "uniqueName": "MenuTexto9",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 9 Criativo",
+      "uniqueName": "MenuCriativo9",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 9 Link de Destino",
+      "uniqueName": "MenuLink9",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "selo9RetangularImg",
+      "uniqueName": "selo9RetangularImg",
+      "description": "Nesta variável, hospede o fundo que ficará no selo retangular, atrás do logotipo.",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 9 Pixel Contador",
+      "uniqueName": "PixelContador9",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu10",
+      "uniqueName": "Menu10",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu10Entrada",
+      "uniqueName": "Menu10Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu10Saida",
+      "uniqueName": "Menu10Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 10 Texto",
+      "uniqueName": "MenuTexto10",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 10 Criativo",
+      "uniqueName": "MenuCriativo10",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 10 Link de Destino",
+      "uniqueName": "MenuLink10",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "selo10RetangularImg",
+      "uniqueName": "selo10RetangularImg",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 10 Pixel Contador",
+      "uniqueName": "PixelContador10",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu11",
+      "uniqueName": "Menu11",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu11Entrada",
+      "uniqueName": "Menu11Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu11Saida",
+      "uniqueName": "Menu11Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 11 Texto",
+      "uniqueName": "MenuTexto11",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 11 Criativo",
+      "uniqueName": "MenuCriativo11",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 11 Link de Destino",
+      "uniqueName": "MenuLink11",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 11 Pixel Contador",
+      "uniqueName": "PixelContador11",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu12",
+      "uniqueName": "Menu12",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu12Entrada",
+      "uniqueName": "Menu12Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu12Saida",
+      "uniqueName": "Menu12Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 12 Texto",
+      "uniqueName": "MenuTexto12",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 12 Criativo",
+      "uniqueName": "MenuCriativo12",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 12 Link de Destino",
+      "uniqueName": "MenuLink12",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 12 Pixel Contador",
+      "uniqueName": "PixelContador12",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu13",
+      "uniqueName": "Menu13",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu13Entrada",
+      "uniqueName": "Menu13Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu13Saida",
+      "uniqueName": "Menu13Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 13 Texto",
+      "uniqueName": "MenuTexto13",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 13 Criativo",
+      "uniqueName": "MenuCriativo13",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 13 Link de Destino",
+      "uniqueName": "MenuLink13",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 13 Pixel Contador",
+      "uniqueName": "PixelContador13",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu14",
+      "uniqueName": "Menu14",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu14Entrada",
+      "uniqueName": "Menu14Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu14Saida",
+      "uniqueName": "Menu14Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 14 Texto",
+      "uniqueName": "MenuTexto14",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 14 Criativo",
+      "uniqueName": "MenuCriativo14",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 14 Link de Destino",
+      "uniqueName": "MenuLink14",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 14 Pixel Contador",
+      "uniqueName": "PixelContador14",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu15",
+      "uniqueName": "Menu15",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu15Entrada",
+      "uniqueName": "Menu15Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu15Saida",
+      "uniqueName": "Menu15Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 15 Texto",
+      "uniqueName": "MenuTexto15",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 15 Criativo",
+      "uniqueName": "MenuCriativo15",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 15 Link de Destino",
+      "uniqueName": "MenuLink15",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 15 Pixel Contador",
+      "uniqueName": "PixelContador15",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu16",
+      "uniqueName": "Menu16",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu16Entrada",
+      "uniqueName": "Menu16Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu16Saida",
+      "uniqueName": "Menu16Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 16 Texto",
+      "uniqueName": "MenuTexto16",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 16 Criativo",
+      "uniqueName": "MenuCriativo16",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 16 Link de Destino",
+      "uniqueName": "MenuLink16",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 16 Pixel Contador",
+      "uniqueName": "PixelContador16",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu17",
+      "uniqueName": "Menu17",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu17Entrada",
+      "uniqueName": "Menu17Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu17Saida",
+      "uniqueName": "Menu17Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 17 Texto",
+      "uniqueName": "MenuTexto17",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 17 Criativo",
+      "uniqueName": "MenuCriativo17",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 17 Link de Destino",
+      "uniqueName": "MenuLink17",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 17 Pixel Contador",
+      "uniqueName": "PixelContador17",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu18",
+      "uniqueName": "Menu18",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu18Entrada",
+      "uniqueName": "Menu18Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu18Saida",
+      "uniqueName": "Menu18Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 18 Texto",
+      "uniqueName": "MenuTexto18",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 18 Criativo",
+      "uniqueName": "MenuCriativo18",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 18 Link de Destino",
+      "uniqueName": "MenuLink18",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 18 Pixel Contador",
+      "uniqueName": "PixelContador18",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu19",
+      "uniqueName": "Menu19",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu19Entrada",
+      "uniqueName": "Menu19Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu19Saida",
+      "uniqueName": "Menu19Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 19 Texto",
+      "uniqueName": "MenuTexto19",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 19 Criativo",
+      "uniqueName": "MenuCriativo19",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 19 Link de Destino",
+      "uniqueName": "MenuLink19",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 19 Pixel Contador",
+      "uniqueName": "PixelContador19",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu20",
+      "uniqueName": "Menu20",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu20Entrada",
+      "uniqueName": "Menu20Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu20Saida",
+      "uniqueName": "Menu20Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 20 Texto",
+      "uniqueName": "MenuTexto20",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 20 Criativo",
+      "uniqueName": "MenuCriativo20",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 20 Link de Destino",
+      "uniqueName": "MenuLink20",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 20 Pixel Contador",
+      "uniqueName": "PixelContador20",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu21",
+      "uniqueName": "Menu21",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu21Entrada",
+      "uniqueName": "Menu21Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu21Saida",
+      "uniqueName": "Menu21Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 21 Texto",
+      "uniqueName": "MenuTexto21",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 21 Criativo",
+      "uniqueName": "MenuCriativo21",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 21 Link de Destino",
+      "uniqueName": "MenuLink21",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 21 Pixel Contador",
+      "uniqueName": "PixelContador21",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu22",
+      "uniqueName": "Menu22",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu22Entrada",
+      "uniqueName": "Menu22Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu22Saida",
+      "uniqueName": "Menu22Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 22 Texto",
+      "uniqueName": "MenuTexto22",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 22 Criativo",
+      "uniqueName": "MenuCriativo22",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 22 Link de Destino",
+      "uniqueName": "MenuLink22",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 22 Pixel Contador",
+      "uniqueName": "PixelContador22",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu23",
+      "uniqueName": "Menu23",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu23Entrada",
+      "uniqueName": "Menu23Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu23Saida",
+      "uniqueName": "Menu23Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 23 Texto",
+      "uniqueName": "MenuTexto23",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 23 Criativo",
+      "uniqueName": "MenuCriativo23",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 23 Link de Destino",
+      "uniqueName": "MenuLink23",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 23 Pixel Contador",
+      "uniqueName": "PixelContador23",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu24",
+      "uniqueName": "Menu24",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu24Entrada",
+      "uniqueName": "Menu24Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu24Saida",
+      "uniqueName": "Menu24Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 24 Texto",
+      "uniqueName": "MenuTexto24",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 24 Criativo",
+      "uniqueName": "MenuCriativo24",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 24 Link de Destino",
+      "uniqueName": "MenuLink24",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 24 Pixel Contador",
+      "uniqueName": "PixelContador24",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu25",
+      "uniqueName": "Menu25",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu25Entrada",
+      "uniqueName": "Menu25Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu25Saida",
+      "uniqueName": "Menu25Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 25 Texto",
+      "uniqueName": "MenuTexto25",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 25 Criativo",
+      "uniqueName": "MenuCriativo25",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 25 Link de Destino",
+      "uniqueName": "MenuLink25",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 25 Pixel Contador",
+      "uniqueName": "PixelContador25",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu26",
+      "uniqueName": "Menu26",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu26Entrada",
+      "uniqueName": "Menu26Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu26Saida",
+      "uniqueName": "Menu26Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 26 Texto",
+      "uniqueName": "MenuTexto26",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 26 Criativo",
+      "uniqueName": "MenuCriativo26",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 26 Link de Destino",
+      "uniqueName": "MenuLink26",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 26 Pixel Contador",
+      "uniqueName": "PixelContador26",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu27",
+      "uniqueName": "Menu27",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu27Entrada",
+      "uniqueName": "Menu27Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu27Saida",
+      "uniqueName": "Menu27Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 27 Texto",
+      "uniqueName": "MenuTexto27",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 27 Criativo",
+      "uniqueName": "MenuCriativo27",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 27 Link de Destino",
+      "uniqueName": "MenuLink27",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 27 Pixel Contador",
+      "uniqueName": "PixelContador27",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "label": "Menu28",
+      "uniqueName": "Menu28",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu28Entrada",
+      "uniqueName": "Menu28Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu28Saida",
+      "uniqueName": "Menu28Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 28 Texto",
+      "uniqueName": "MenuTexto28",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 28 Criativo",
+      "uniqueName": "MenuCriativo28",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 28 Link de Destino",
+      "uniqueName": "MenuLink28",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu 28 Pixel Contador",
+      "uniqueName": "PixelContador28",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "sampleValue": "Desativado",
+      "label": "Menu29",
+      "uniqueName": "Menu29",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu29Entrada",
+      "uniqueName": "Menu29Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu29Saida",
+      "uniqueName": "Menu29Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "MenuTexto29",
+      "uniqueName": "MenuTexto29",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "MenuCriativo29",
+      "uniqueName": "MenuCriativo29",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "MenuLink29",
+      "uniqueName": "MenuLink29",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "PixelContador29",
+      "uniqueName": "PixelContador29",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Desativado",
+          "value": "Desativado"
+        },
+        {
+          "label": "Ativado",
+          "value": "Ativado"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Desativado",
+      "sampleValue": "Desativado",
+      "label": "Menu30",
+      "uniqueName": "Menu30",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Menu30Entrada",
+      "uniqueName": "Menu30Entrada",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "Menu30Saida",
+      "uniqueName": "Menu30Saida",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "MenuTexto30",
+      "uniqueName": "MenuTexto30",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "MenuCriativo30",
+      "uniqueName": "MenuCriativo30",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "MenuLink30",
+      "uniqueName": "MenuLink30",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "label": "PixelContador30",
+      "uniqueName": "PixelContador30",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    },
+    {
+      "choices": [
+        {
+          "label": "Horizontal",
+          "value": "Horizontal"
+        },
+        {
+          "label": "Vertical",
+          "value": "Vertical"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Horizontal",
+      "label": "PosicaoDesktop",
+      "uniqueName": "PosicaoDesktop",
+      "description": "",
+      "isRequired": true,
+      "variableType": "LIST"
+    },
+    {
+      "choices": [
+        {
+          "label": "Sim",
+          "value": "Sim"
+        },
+        {
+          "label": "Não",
+          "value": "Não"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Não",
+      "label": "Teste",
+      "uniqueName": "Teste",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "choices": [
+        {
+          "label": "Enabled",
+          "value": "Enabled"
+        },
+        {
+          "label": "Disabled",
+          "value": "Disabled"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Disabled",
+      "label": "PauseAllAutoRefreshSlots",
+      "uniqueName": "PauseAllAutoRefreshSlots",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "choices": [
+        {
+          "label": "Enabled",
+          "value": "Enabled"
+        },
+        {
+          "label": "Disabled",
+          "value": "Disabled"
+        }
+      ],
+      "allowOtherChoice": false,
+      "defaultValue": "Disabled",
+      "label": "PauseOnlyThisSlot",
+      "uniqueName": "PauseOnlyThisSlot",
+      "description": "",
+      "isRequired": false,
+      "variableType": "LIST"
+    },
+    {
+      "label": "Script Customizado",
+      "uniqueName": "ScriptCustomizado",
+      "description": "",
+      "isRequired": false,
+      "variableType": "STRING"
+    }
+  ],
+  "formatter": "\u003c!-- GA para contabilizar eventos das setas de avançar --\u003e\n\n\u003cscript\u003e\n  (function(i,s,o,g,r,a,m){i[\u0027GoogleAnalyticsObject\u0027]\u003dr;i[r]\u003di[r]||function(){\n    (i[r].q\u003di[r].q||[]).push(arguments)},i[r].l\u003d1*new Date();a\u003ds.createElement(o),\n    m\u003ds.getElementsByTagName(o)[0];a.async\u003d1;a.src\u003dg;m.parentNode.insertBefore(a,m)\n  })(window,document,\u0027script\u0027,\u0027https://www.google-analytics.com/analytics.js\u0027,\u0027ga\u0027);\n  ga(\u0027create\u0027, \u0027UA-54622095-1\u0027, \u0027auto\u0027);\n\u003c/script\u003e\n  \n\u003c!-- Fim do GA para contabilizar eventos das setas de avançar --\u003e\n\n\u003cimg src\u003d\"%%VIEW_URL_UNESC%%\" style\u003d\"display:none\"\u003e \n\n\u003cdiv id\u003d\"menu1\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu2\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu3\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu4\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu5\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu6\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu7\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu8\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu9\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu10\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu11\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu12\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu13\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu14\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu15\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu16\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu17\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu18\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu19\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu20\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu21\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu22\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu23\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu24\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu25\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu26\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu27\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu28\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu29\"\u003e\u003c/div\u003e\n\u003cdiv id\u003d\"menu30\"\u003e\u003c/div\u003e\n\n\u003cscript\u003e\n\n  var hoje \u003d new Date();\n  \n  var dataEntrada1 \u003d new Date(\"[%Menu1Entrada%]\");\n  var dataSaida1 \u003d new Date(\"[%Menu1Saida%]\");\n\n  var dataEntrada2 \u003d new Date(\"[%Menu2Entrada%]\");\n  var dataSaida2 \u003d new Date(\"[%Menu2Saida%]\");\n\n  var dataEntrada3 \u003d new Date(\"[%Menu3Entrada%]\");\n  var dataSaida3 \u003d new Date(\"[%Menu3Saida%]\");\n\n  var dataEntrada4 \u003d new Date(\"[%Menu4Entrada%]\");\n  var dataSaida4 \u003d new Date(\"[%Menu4Saida%]\");\n\n  var dataEntrada5 \u003d new Date(\"[%Menu5Entrada%]\");\n  var dataSaida5 \u003d new Date(\"[%Menu5Saida%]\");\n\n  var dataEntrada6 \u003d new Date(\"[%Menu6Entrada%]\");\n  var dataSaida6 \u003d new Date(\"[%Menu6Saida%]\");\n\n  var dataEntrada7 \u003d new Date(\"[%Menu7Entrada%]\");\n  var dataSaida7 \u003d new Date(\"[%Menu7Saida%]\");\n\n  var dataEntrada8 \u003d new Date(\"[%Menu8Entrada%]\");\n  var dataSaida8 \u003d new Date(\"[%Menu8Saida%]\");\n\n  var dataEntrada9 \u003d new Date(\"[%Menu9Entrada%]\");\n  var dataSaida9 \u003d new Date(\"[%Menu9Saida%]\");\n\n  var dataEntrada10 \u003d new Date(\"[%Menu10Entrada%]\");\n  var dataSaida10 \u003d new Date(\"[%Menu10Saida%]\");\n\n  var dataEntrada11 \u003d new Date(\"[%Menu11Entrada%]\");\n  var dataSaida11 \u003d new Date(\"[%Menu11Saida%]\");\n\n  var dataEntrada12 \u003d new Date(\"[%Menu12Entrada%]\");\n  var dataSaida12 \u003d new Date(\"[%Menu12Saida%]\");\n\n  var dataEntrada13 \u003d new Date(\"[%Menu13Entrada%]\");\n  var dataSaida13 \u003d new Date(\"[%Menu13Saida%]\");\n\n  var dataEntrada14 \u003d new Date(\"[%Menu14Entrada%]\");\n  var dataSaida14 \u003d new Date(\"[%Menu14Saida%]\");\n\n  var dataEntrada15 \u003d new Date(\"[%Menu15Entrada%]\");\n  var dataSaida15 \u003d new Date(\"[%Menu15Saida%]\");\n\n  var dataEntrada16 \u003d new Date(\"[%Menu16Entrada%]\");\n  var dataSaida16 \u003d new Date(\"[%Menu16Saida%]\");\n\n  var dataEntrada17 \u003d new Date(\"[%Menu17Entrada%]\");\n  var dataSaida17 \u003d new Date(\"[%Menu17Saida%]\");\n\n  var dataEntrada18 \u003d new Date(\"[%Menu18Entrada%]\");\n  var dataSaida18 \u003d new Date(\"[%Menu18Saida%]\");\n\n  var dataEntrada19 \u003d new Date(\"[%Menu19Entrada%]\");\n  var dataSaida19 \u003d new Date(\"[%Menu19Saida%]\");\n\n  var dataEntrada20 \u003d new Date(\"[%Menu20Entrada%]\");\n  var dataSaida20 \u003d new Date(\"[%Menu20Saida%]\");\n\n  var dataEntrada21 \u003d new Date(\"[%Menu21Entrada%]\");\n  var dataSaida21 \u003d new Date(\"[%Menu21Saida%]\");\n\n  var dataEntrada22 \u003d new Date(\"[%Menu22Entrada%]\");\n  var dataSaida22 \u003d new Date(\"[%Menu22Saida%]\");\n\n  var dataEntrada23 \u003d new Date(\"[%Menu23Entrada%]\");\n  var dataSaida23 \u003d new Date(\"[%Menu23Saida%]\");\n\n  var dataEntrada24 \u003d new Date(\"[%Menu24Entrada%]\");\n  var dataSaida24 \u003d new Date(\"[%Menu24Saida%]\");\n\n  var dataEntrada25 \u003d new Date(\"[%Menu25Entrada%]\");\n  var dataSaida25 \u003d new Date(\"[%Menu25Saida%]\");\n\n  var dataEntrada26 \u003d new Date(\"[%Menu26Entrada%]\");\n  var dataSaida26 \u003d new Date(\"[%Menu26Saida%]\");\n\n  var dataEntrada27 \u003d new Date(\"[%Menu27Entrada%]\");\n  var dataSaida27 \u003d new Date(\"[%Menu27Saida%]\");\n\n  var dataEntrada28 \u003d new Date(\"[%Menu28Entrada%]\");\n  var dataSaida28 \u003d new Date(\"[%Menu28Saida%]\");\n\n  var dataEntrada29 \u003d new Date(\"[%Menu29Entrada%]\");\n  var dataSaida29 \u003d new Date(\"[%Menu29Saida%]\");\n\n  var dataEntrada30 \u003d new Date(\"[%Menu30Entrada%]\");\n  var dataSaida30 \u003d new Date(\"[%Menu30Saida%]\");\n\n  var i \u003d 0;\n  \n  if(screen.width \u003e\u003d 1024){\n    var desktop \u003d true;\n  } else{\n    var desktop \u003d false;\n  }\n\n  if (\u0027[%Menu1%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada1 \u003c\u003d hoje \u0026\u0026 dataSaida1 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu1\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto1%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo1%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador1%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu1\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo1%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto1%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n         \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador1%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu1\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink1%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu1\").parentNode.removeChild(document.getElementById(\"menu1\"));\n  }\n    \n  if (\u0027[%Menu2%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada2 \u003c\u003d hoje \u0026\u0026 dataSaida2 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu2\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto2%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo2%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador2%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu2\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo2%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto2%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n         \u0027[%PixelContador2%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu2\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink2%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu2\").parentNode.removeChild(document.getElementById(\"menu2\"));\n  }\n    \n  if (\u0027[%Menu3%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada3 \u003c\u003d hoje \u0026\u0026 dataSaida3 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu3\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto3%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo3%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador3%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu3\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo3%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto3%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador3%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu3\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink3%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu3\").parentNode.removeChild(document.getElementById(\"menu3\"));\n  }\n    \n  if (\u0027[%Menu4%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada4 \u003c\u003d hoje \u0026\u0026 dataSaida4 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu4\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto4%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo4%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador4%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu4\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo4%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto4%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador4%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu4\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink4%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu4\").parentNode.removeChild(document.getElementById(\"menu4\"));\n  }\n    \n  if (\u0027[%Menu5%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada5 \u003c\u003d hoje \u0026\u0026 dataSaida5 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu5\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto5%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo5%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador5%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu5\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo5%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto5%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador5%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu5\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink5%]\u0027, \u0027_blank\u0027);\n    });    \n    i++;\n  } else {\n    document.getElementById(\"menu5\").parentNode.removeChild(document.getElementById(\"menu5\"));\n  }\n    \n  if (\u0027[%Menu6%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada6 \u003c\u003d hoje \u0026\u0026 dataSaida6 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu6\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto6%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo6%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador6%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu6\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo6%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto6%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador6%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu6\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink6%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu6\").parentNode.removeChild(document.getElementById(\"menu6\"));\n  }\n    \n  if (\u0027[%Menu7%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada7 \u003c\u003d hoje \u0026\u0026 dataSaida7 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu7\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto7%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo7%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador7%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu7\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo7%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto7%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador7%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu7\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink7%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu7\").parentNode.removeChild(document.getElementById(\"menu7\"));\n  }\n    \n  if (\u0027[%Menu8%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada8 \u003c\u003d hoje \u0026\u0026 dataSaida8 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu8\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto8%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo8%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador8%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu8\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo8%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto8%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador8%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu8\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink8%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu8\").parentNode.removeChild(document.getElementById(\"menu8\"));\n  }\n    \n  if (\u0027[%Menu9%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada9 \u003c\u003d hoje \u0026\u0026 dataSaida9 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu9\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto9%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo9%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador9%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu9\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo9%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto9%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador9%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu9\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink9%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu9\").parentNode.removeChild(document.getElementById(\"menu9\"));\n  }\n  \n  if (\u0027[%Menu10%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada10 \u003c\u003d hoje \u0026\u0026 dataSaida10 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu10\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto10%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo10%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador10%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu10\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo10%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto10%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador10%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu10\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink10%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu10\").parentNode.removeChild(document.getElementById(\"menu10\"));\n  }\n  \n  if (\u0027[%Menu11%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada11 \u003c\u003d hoje \u0026\u0026 dataSaida11 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu11\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto11%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo11%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador11%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu11\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo11%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto11%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador11%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu11\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink11%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu11\").parentNode.removeChild(document.getElementById(\"menu11\"));\n  }\n  \n  if (\u0027[%Menu12%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada12 \u003c\u003d hoje \u0026\u0026 dataSaida12 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu12\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto12%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo12%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador12%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu12\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo12%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto12%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador12%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu12\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink12%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu12\").parentNode.removeChild(document.getElementById(\"menu12\"));\n  }\n  \n  if (\u0027[%Menu13%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada13 \u003c\u003d hoje \u0026\u0026 dataSaida13 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu13\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto13%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo13%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador13%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu13\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo13%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto13%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador13%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu13\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink13%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu13\").parentNode.removeChild(document.getElementById(\"menu13\"));\n  }\n  \n  if (\u0027[%Menu14%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada14 \u003c\u003d hoje \u0026\u0026 dataSaida14 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu14\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto14%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo14%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador14%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu14\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo14%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto14%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador14%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu14\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink14%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu14\").parentNode.removeChild(document.getElementById(\"menu14\"));\n  }\n  \n  if (\u0027[%Menu15%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada15 \u003c\u003d hoje \u0026\u0026 dataSaida15 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu15\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto15%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo15%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador15%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu15\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo15%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto15%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador15%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu15\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink15%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu15\").parentNode.removeChild(document.getElementById(\"menu15\"));\n  }\n  \n  if (\u0027[%Menu16%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada16 \u003c\u003d hoje \u0026\u0026 dataSaida16 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu16\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto16%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo16%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador16%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu16\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo16%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto16%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador16%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu16\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink16%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu16\").parentNode.removeChild(document.getElementById(\"menu16\"));\n  }\n  \n  if (\u0027[%Menu17%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada17 \u003c\u003d hoje \u0026\u0026 dataSaida17 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu17\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto17%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo17%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador17%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu17\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo17%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto17%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador17%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu17\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink17%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu17\").parentNode.removeChild(document.getElementById(\"menu17\"));\n  }\n  \n  if (\u0027[%Menu18%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada18 \u003c\u003d hoje \u0026\u0026 dataSaida18 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu18\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto18%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo18%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador18%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu18\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo18%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto18%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador18%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu18\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink18%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu18\").parentNode.removeChild(document.getElementById(\"menu18\"));\n  }\n  \n  if (\u0027[%Menu19%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada19 \u003c\u003d hoje \u0026\u0026 dataSaida19 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu19\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto19%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo19%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador19%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu19\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo19%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto19%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador19%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu19\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink19%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu19\").parentNode.removeChild(document.getElementById(\"menu19\"));\n  }\n  \n  if (\u0027[%Menu20%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada20 \u003c\u003d hoje \u0026\u0026 dataSaida20 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu20\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto20%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo20%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador20%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu20\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo20%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto20%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador20%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu20\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink20%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu20\").parentNode.removeChild(document.getElementById(\"menu20\"));\n  }\n  \n  if (\u0027[%Menu21%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada21 \u003c\u003d hoje \u0026\u0026 dataSaida21 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu21\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto21%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo21%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador21%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu21\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo21%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto21%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador21%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu21\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink21%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu21\").parentNode.removeChild(document.getElementById(\"menu21\"));\n  }\n  \n  if (\u0027[%Menu22%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada22 \u003c\u003d hoje \u0026\u0026 dataSaida22 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu22\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto22%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo22%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador22%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu22\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo22%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto22%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador22%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu22\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink22%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu22\").parentNode.removeChild(document.getElementById(\"menu22\"));\n  }\n  \n  if (\u0027[%Menu23%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada23 \u003c\u003d hoje \u0026\u0026 dataSaida23 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu23\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto23%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo23%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador23%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu23\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo23%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto23%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador23%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu23\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink23%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu23\").parentNode.removeChild(document.getElementById(\"menu23\"));\n  }\n  \n  if (\u0027[%Menu24%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada24 \u003c\u003d hoje \u0026\u0026 dataSaida24 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu24\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto24%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo24%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador24%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu24\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo24%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto24%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador24%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu24\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink24%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu24\").parentNode.removeChild(document.getElementById(\"menu24\"));\n  }\n  \n  if (\u0027[%Menu25%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada25 \u003c\u003d hoje \u0026\u0026 dataSaida25 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu25\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto25%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo25%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador25%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu25\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo25%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto25%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador25%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu25\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink25%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu25\").parentNode.removeChild(document.getElementById(\"menu25\"));\n  }\n  \n  if (\u0027[%Menu26%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada26 \u003c\u003d hoje \u0026\u0026 dataSaida26 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu26\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto26%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo26%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador26%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu26\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo26%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto26%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador26%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu26\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink26%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu26\").parentNode.removeChild(document.getElementById(\"menu26\"));\n  }\n  \n  if (\u0027[%Menu27%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada27 \u003c\u003d hoje \u0026\u0026 dataSaida27 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu27\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto27%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo27%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador27%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu27\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo27%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto27%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador27%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu27\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink27%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu27\").parentNode.removeChild(document.getElementById(\"menu27\"));\n  }\n  \n  if (\u0027[%Menu28%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada28 \u003c\u003d hoje \u0026\u0026 dataSaida28 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu28\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto28%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo28%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador28%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu28\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo28%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto28%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador28%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu28\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink28%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu28\").parentNode.removeChild(document.getElementById(\"menu28\"));\n  }\n  \n  if (\u0027[%Menu29%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada29 \u003c\u003d hoje \u0026\u0026 dataSaida29 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu29\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto29%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo29%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador29%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu29\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo29%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto29%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador29%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu29\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink29%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu29\").parentNode.removeChild(document.getElementById(\"menu29\"));\n  }\n  \n  if (\u0027[%Menu30%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada30 \u003c\u003d hoje \u0026\u0026 dataSaida30 \u003e\u003d hoje) {\n    if(desktop){\n      document.getElementById(\u0027menu30\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"desktop_div\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"admenu supercenter\" id\u003d\"admenu\"\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"texto\"\u003e\u0027 +\n            `\u003cp\u003e[%MenuTexto30%]\u003c/p\u003e` +\n          \u0027\u003c/div\u003e\u0027 +\n          \u0027\u003cdiv id\u003d\"imagem\"\u003e\u0027 +\n            \u0027\u003cimg src\u003d\"[%MenuCriativo30%]\" border\u003d\"0\"\u003e\u0027 +\n          \u0027\u003c/div\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador30%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    } else {\n      document.getElementById(\u0027menu30\u0027).innerHTML \u003d \n      \u0027\u003cdiv id\u003d\"mobile_div\"\u003e\u0027 +\n        \u0027\u003cul\u003e\u0027 +\n          \u0027\u003cli class\u003d\"menu-list-item\"\u003e\u0027 +\n            \u0027\u003cp id\u003d\"admenu\" class\u003d\"menu-item\"\u003e\u0027 +\n              \u0027\u003cspan class\u003d\"image-box\"\u003e\u0027 +\n                \u0027\u003cimg src\u003d\"[%MenuCriativo30%]\" border\u003d\"0\"\u003e\u0027 +\n              `\u003c/span\u003e[%MenuTexto30%]` +\n            \u0027\u003c/p\u003e\u0027 +\n          \u0027\u003c/li\u003e\u0027 +\n        \u0027\u003c/ul\u003e\u0027 +\n        \u0027[%PixelContador30%]\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    }\n    document.getElementById(\u0027menu30\u0027).addEventListener(\u0027click\u0027, function(){\n      window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink30%]\u0027, \u0027_blank\u0027);\n    });\n    i++;\n  } else {\n    document.getElementById(\"menu30\").parentNode.removeChild(document.getElementById(\"menu30\"));\n  }\n\n  var css \u003d \"\",\n  head \u003d top.document.head || top.document.getElementsByTagName(\"head\")[0],\n  style \u003d document.createElement(\"style\");\n  style.type \u003d \"text/css\";\n    \n  var css \u003d \n  \n    \"#desktop_div {\" +\n      \"margin: 0 auto;\" +\n    \"}\" +\n  \n    \"#desktop_div .admenu { \"+\n      \"width: 112px !important;\"+\n      \"height: 50px;\"+\n      \"float: left;\"+\n      \"cursor: pointer;\"+\n    \"}\"+\n  \n    \"#desktop_div .supercenter {\"+\n      \"justify-content: center;\"+\n      \"align-items: center;\"+\n      \"margin: 0 auto;\"+\n      \"display: flex;\"+\n      \"text-align: center;\"+\n    \"}\"+\n  \n    \"#desktop_div img {\"+\n      \"width: 40px;\"+\n      \"height: 40px;\"+\n    \"}\"+\n  \n    \"#desktop_div p {\"+\n      \"font-family: \u0027Lato\u0027, sans-serif;\"+\n      \"text-transform: uppercase;\"+\n      \"font-size: 10px;\"+\n      \"color: #7a7a7a;\"+\n      \"line-height: 20px;\"+\n      \"padding-right: 5px;\"+\n      \"max-width: 72px;\"+\n      \"line-height: 140%;\"+\n    \"}\"+\n  \n    \".desktop_css{\";\n      if(top.window.location.href.indexOf(\u0027blog\u0027) !\u003d\u003d -1){\n        css +\u003d \n        \"width: 112px;\";\n      } else{\n        css +\u003d \n        \"width: 123px;\";\n      }\n        \n      css +\u003d \n        \"height: 50px;\"+\n        \"float: left;\"+\n        \"border-right: 1px solid #e3e2e2;\"+\n        \"padding: 0 5px;\"+\n    \"}\"+\n  \n    \".desktop_css iframe {\"+\n      \"width: 122px;\"+\n      \"height: 50px;\"+\n      \"float: left;\"+\n    \"}\"+\n  \n    \"#desktop_div p:hover {\"+\n      \"color: #ff6a28;\"+\n      \"transition: 0.3s;\"+\n    \"}\"+\n  \n    \"#mobile_div ul {\"+\n      \"padding: 0;\"+\n    \"}\"+\n  \n    \"#mobile_div li {\"+\n      \"list-style: none;\"+\n    \"}\"+\n  \n    \"#mobile_div .menu-item {\"+\n      \"display: flex;\"+\n      \"align-items: center;\"+\n      \"padding-left: 10px;\"+\n      \"text-transform: uppercase;\"+\n      \"font-family: lato,sans-serif;\"+\n      \"font-size: .85em;\"+\n      \"font-weight: 400;\"+\n      \"text-decoration: none;\"+\n      \"color: #7a7a7a;\"+\n      \"height: 60px;\"+\n    \"}\"+\n  \n    \"#mobile_div .image-box {\"+\n      \"display: flex;\"+\n      \"align-items: center;\"+\n      \"flex-shrink: 0;\"+\n      \"justify-content: center;\"+\n      \"margin: 0 10px;\"+\n      \"border-radius: 100%;\"+\n      \"box-shadow: 0 3px 11px 1px rgba(224, 224, 224, 0.83);\"+\n      \"width: 40px;\"+\n      \"height: 40px;\"+\n    \"}\"+\n  \n    \"#mobile_div .image-box img {\"+\n      \"max-height: 75%;\"+\n      \"border: 0;\"+\n      \"vertical-align: middle;\"+\n    \"}\"+\n  \n    \".mobile_css,\"+\n    \".mobile_css iframe {\"+\n      \"width: 100%;\"+\n      \"height: 80px;\"+\n    \"}\" +\n  \n    \".submenuDesktop{\" + \n      \"width: 200px;\" +\n      \"height: 50px;\" +\n      \"float: left;\" +\n      \"padding: 0 5px;\" +\n    \"}\" +\n\n    \".submenu.submenu-desk{\" +\n      \"padding: 12px 16px !important;\" +\n    \"}\" +\n\n    \".special-channel-submenu{\" +\n      \"min-width: 1080px;\" +\n    \"}\" +\n      \n    \".submenuDesktop .supercenter{\" + \n      \"flex-direction: row-reverse;\" +\n    \"}\";\n\n    if (desktop) {\n      var menusDesktopPrincipal \u003d [];\n      var menusDesktopSubMenu \u003d [];\n      \n      top.document.getElementById(\"ad-menu\").getElementsByTagName(\"iframe\")[0].style.cssText \u003d \"height: 50px; margin: 0 auto; display: block;\";\n\n      if (\"[%PosicaoDesktop%]\" \u003d\u003d \"Vertical\") {\n        document.getElementById(\"texto\").style.cssText \u003d \"position: absolute; top: 0px;\";\n        document.getElementById(\"imagem\").style.cssText \u003d \"position: absolute; bottom: 0px;\";\n        document.getElementById(\"imagem\").getElementsByTagName(\"img\")[0].style.cssText \u003d \"width: auto; height: auto;\";\n      }\n\n      if(document.getElementById(\"menu1\")){\n        document.getElementById(\"menu1\").classList.add(\"desktop_css\");\n        menusDesktopPrincipal.push(\u0027menu1\u0027);\n      }\n\n      if(document.getElementById(\"menu2\")){\n        document.getElementById(\"menu2\").classList.add(\"desktop_css\");\n        menusDesktopPrincipal.push(\u0027menu2\u0027);\n      }\n\n      if(document.getElementById(\"menu3\")){\n        document.getElementById(\"menu3\").classList.add(\"desktop_css\");\n        menusDesktopPrincipal.push(\u0027menu3\u0027);\n      }\n\n      if(document.getElementById(\"menu4\")){\n        document.getElementById(\"menu4\").classList.add(\"desktop_css\");\n        menusDesktopPrincipal.push(\u0027menu4\u0027);\n      }\n\n      if(document.getElementById(\"menu5\")){\n        document.getElementById(\"menu5\").classList.add(\"desktop_css\");\n        menusDesktopPrincipal.push(\u0027menu5\u0027);\n      }\n\n      if(document.getElementById(\"menu6\")){\n        document.getElementById(\"menu6\").classList.add(\"desktop_css\");\n        menusDesktopPrincipal.push(\u0027menu6\u0027);\n      }\n\n      if(document.getElementById(\"menu7\")){\n        document.getElementById(\"menu7\").classList.add(\"desktop_css\");\n        menusDesktopPrincipal.push(\u0027menu7\u0027);\n      }\n\n      if(document.getElementById(\"menu8\")){\n        document.getElementById(\"menu8\").classList.add(\"desktop_css\");\n        menusDesktopPrincipal.push(\u0027menu8\u0027);\n      }\n\n      if(document.getElementById(\"menu9\")){\n        document.getElementById(\"menu9\").classList.add(\"desktop_css\");\n        menusDesktopPrincipal.push(\u0027menu9\u0027);\n      }\n\n      if(document.getElementById(\"menu10\")){\n        document.getElementById(\"menu10\").classList.add(\"desktop_css\");\n        menusDesktopPrincipal.push(\u0027menu10\u0027);\n      }\n\n      if(document.getElementById(\"menu11\")){\n        document.getElementById(\"menu11\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu11\u0027);\n      }\n\n      if(document.getElementById(\"menu12\")){\n        document.getElementById(\"menu12\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu12\u0027);\n      }\n\n      if(document.getElementById(\"menu13\")){\n        document.getElementById(\"menu13\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu13\u0027);\n      }\n\n      if(document.getElementById(\"menu14\")){\n        document.getElementById(\"menu14\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu14\u0027);\n      }\n\n      if(document.getElementById(\"menu15\")){\n        document.getElementById(\"menu15\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu15\u0027);\n      }\n\n      if(document.getElementById(\"menu16\")){\n        document.getElementById(\"menu16\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu16\u0027);\n      }\n\n      if(document.getElementById(\"menu17\")){\n        document.getElementById(\"menu17\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu17\u0027);\n      }\n\n      if(document.getElementById(\"menu18\")){\n        document.getElementById(\"menu18\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu18\u0027);\n      }\n\n      if(document.getElementById(\"menu19\")){\n        document.getElementById(\"menu19\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu19\u0027);\n      }\n\n      if(document.getElementById(\"menu20\")){\n        document.getElementById(\"menu20\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu20\u0027);\n      }\n\n      if(document.getElementById(\"menu21\")){\n        document.getElementById(\"menu21\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu21\u0027);\n      }\n\n      if(document.getElementById(\"menu22\")){\n        document.getElementById(\"menu22\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu22\u0027);\n      }\n\n      if(document.getElementById(\"menu23\")){\n        document.getElementById(\"menu23\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu23\u0027);\n      }\n      \n      if(document.getElementById(\"menu24\")){\n        document.getElementById(\"menu24\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu24\u0027);\n      }\n\n      if(document.getElementById(\"menu25\")){\n        document.getElementById(\"menu25\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu25\u0027);\n      }\n\n      if(document.getElementById(\"menu26\")){\n        document.getElementById(\"menu26\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu26\u0027);\n      }\n\n      if(document.getElementById(\"menu27\")){\n        document.getElementById(\"menu27\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu27\u0027);\n      }\n\n      if(document.getElementById(\"menu28\")){\n        document.getElementById(\"menu28\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu28\u0027);\n      }\n\n      if(document.getElementById(\"menu29\")){\n        document.getElementById(\"menu29\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu29\u0027);\n      }\n\n      if(document.getElementById(\"menu30\")){\n        document.getElementById(\"menu30\").classList.add(\"desktop_css\");\n        menusDesktopSubMenu.push(\u0027menu30\u0027);\n      }\n\n      for (i \u003d 0; i \u003c\u003d menusDesktopSubMenu.length; i++) { //submenus\n        if (document.getElementById(menusDesktopSubMenu[i])) {\n          document.getElementById(menusDesktopSubMenu[i]).classList.remove(\u0027desktop_css\u0027);\n          document.getElementById(menusDesktopSubMenu[i]).classList.add(\u0027submenuDesktop\u0027);\n          if (!top.document.getElementById(\u0027special-channel-submenu\u0027)) {\n            var specialChannelSubmenu \u003d document.createElement(\u0027div\u0027);\n            specialChannelSubmenu.id \u003d \u0027special-channel-submenu\u0027;\n            top.document.getElementById(\u0027special-channel-blog\u0027).appendChild(specialChannelSubmenu);\n          }\n          top.document.getElementById(\u0027special-channel-submenu\u0027).appendChild(document.getElementById(menusDesktopSubMenu[i]));\n        }\n      }\n\n      for (i \u003d 0; i \u003c\u003d menusDesktopPrincipal.length; i++) { //menu principal\n        if (document.getElementById(menusDesktopPrincipal[i])) {\n          top.document.getElementById(\u0027ad-menu\u0027).appendChild(document.getElementById(menusDesktopPrincipal[i]));\n        }\n      }\n      \n      top.document.getElementById(\u0027ad-menu\u0027).getElementsByTagName(\u0027iframe\u0027)[0].style.display \u003d \u0027none\u0027;\n      css+\u003d \"#special-channel-blog{min-width: 1080px !important;)}#ad-menu {width: calc(123px * \" + top.document.getElementById(\u0027ad-menu\u0027).getElementsByClassName(\u0027desktop_css\u0027).length + \");margin: 0 auto;}\";\n\n      var pos \u003d top.document.getElementById(\u0027ad-menu\u0027).getElementsByClassName(\u0027desktop_css\u0027).length - 1;\n      top.document.getElementById(\u0027ad-menu\u0027).getElementsByClassName(\u0027desktop_css\u0027)[pos].style.cssText \u003d \"border-right:none;\";\n    } else {\n      var menusMobilePrincipal \u003d [];\n      var menusMobileSubMenu \u003d [];\n\n      top.document.getElementById(\"ad-menu\").getElementsByTagName(\"iframe\")[0].style.cssText \u003d \"width: 100%; margin: 0 auto; display: block; padding: 0;\";\n      \n      if (\"[%PosicaoDesktop%]\" \u003d\u003d \"Vertical\") {\n        document.getElementsByClassName(\"image-box\")[0].style.cssText \u003d \"width: 30px; height: auto;\";\n      }\n\n      if(document.getElementById(\"menu1\")){\n        document.getElementById(\"menu1\").classList.add(\"mobile_css\");\n        menusMobilePrincipal.push(\u0027menu1\u0027);\n      }\n\n      if(document.getElementById(\"menu2\")){\n        document.getElementById(\"menu2\").classList.add(\"mobile_css\");\n        menusMobilePrincipal.push(\u0027menu2\u0027);\n      }\n\n      if(document.getElementById(\"menu3\")){\n        document.getElementById(\"menu3\").classList.add(\"mobile_css\");\n        menusMobilePrincipal.push(\u0027menu3\u0027);\n      }\n\n      if(document.getElementById(\"menu4\")){\n        document.getElementById(\"menu4\").classList.add(\"mobile_css\");\n        menusMobilePrincipal.push(\u0027menu4\u0027);\n      }\n\n      if(document.getElementById(\"menu5\")){\n        document.getElementById(\"menu5\").classList.add(\"mobile_css\");\n        menusMobilePrincipal.push(\u0027menu5\u0027);\n      }\n\n      if(document.getElementById(\"menu6\")){\n        document.getElementById(\"menu6\").classList.add(\"mobile_css\");\n        menusMobilePrincipal.push(\u0027menu6\u0027);\n      }\n\n      if(document.getElementById(\"menu7\")){\n        document.getElementById(\"menu7\").classList.add(\"mobile_css\");\n        menusMobilePrincipal.push(\u0027menu7\u0027);\n      }\n\n      if(document.getElementById(\"menu8\")){\n        document.getElementById(\"menu8\").classList.add(\"mobile_css\");\n        menusMobilePrincipal.push(\u0027menu8\u0027);\n      }\n\n      if(document.getElementById(\"menu9\")){\n        document.getElementById(\"menu9\").classList.add(\"mobile_css\");\n        menusMobilePrincipal.push(\u0027menu9\u0027);\n      }\n\n      if(document.getElementById(\"menu10\")){\n        document.getElementById(\"menu10\").classList.add(\"mobile_css\");\n        menusMobilePrincipal.push(\u0027menu10\u0027);\n      }\n\n      if(document.getElementById(\"menu11\")){\n        document.getElementById(\"menu11\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu11\u0027);\n      }\n\n      if(document.getElementById(\"menu12\")){\n        document.getElementById(\"menu12\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu12\u0027);\n      }\n\n      if(document.getElementById(\"menu13\")){\n        document.getElementById(\"menu13\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu13\u0027);\n      }\n\n      if(document.getElementById(\"menu14\")){\n        document.getElementById(\"menu14\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu14\u0027);\n      }\n\n      if(document.getElementById(\"menu15\")){\n        document.getElementById(\"menu15\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu15\u0027);\n      }\n\n      if(document.getElementById(\"menu16\")){\n        document.getElementById(\"menu16\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu16\u0027);\n      }\n\n      if(document.getElementById(\"menu17\")){\n        document.getElementById(\"menu17\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu17\u0027);\n      }\n\n      if(document.getElementById(\"menu18\")){\n        document.getElementById(\"menu18\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu18\u0027);\n      }\n\n      if(document.getElementById(\"menu19\")){\n        document.getElementById(\"menu19\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu19\u0027);\n      }\n\n      if(document.getElementById(\"menu20\")){\n        document.getElementById(\"menu20\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu20\u0027);\n      }\n\n      if(document.getElementById(\"menu21\")){\n        document.getElementById(\"menu21\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu21\u0027);\n      }\n\n      if(document.getElementById(\"menu22\")){\n        document.getElementById(\"menu22\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu22\u0027);\n      }\n\n      if(document.getElementById(\"menu23\")){\n        document.getElementById(\"menu23\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu23\u0027);\n      }\n\n      if(document.getElementById(\"menu24\")){\n        document.getElementById(\"menu24\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu24\u0027);\n      }\n\n      if(document.getElementById(\"menu25\")){\n        document.getElementById(\"menu25\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu25\u0027);\n      }\n\n      if(document.getElementById(\"menu26\")){\n        document.getElementById(\"menu26\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu26\u0027);\n      }\n\n      if(document.getElementById(\"menu27\")){\n        document.getElementById(\"menu27\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu27\u0027);\n      }\n\n      if(document.getElementById(\"menu28\")){\n        document.getElementById(\"menu28\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu28\u0027);\n      }\n\n      if(document.getElementById(\"menu29\")){\n        document.getElementById(\"menu29\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu29\u0027);\n      }\n\n      if(document.getElementById(\"menu30\")){\n        document.getElementById(\"menu30\").classList.add(\"mobile_css\");\n        menusMobileSubMenu.push(\u0027menu30\u0027);\n      }    \n\n      for (i \u003d 0; i \u003c\u003d menusMobileSubMenu.length; i++) {\n        if (document.getElementById(menusMobileSubMenu[i])) {\n          document.getElementById(menusMobileSubMenu[i]).classList.remove(\u0027mobile_css\u0027);\n          document.getElementById(menusMobileSubMenu[i]).classList.add(\u0027submenuMobile\u0027);\n          if (!top.document.getElementById(\u0027special-channel-submenu\u0027)) {\n            var specialChannelSubmenu \u003d document.createElement(\u0027div\u0027);\n            specialChannelSubmenu.id \u003d \u0027special-channel-submenu\u0027;\n            top.document.getElementById(\u0027myNav\u0027).appendChild(specialChannelSubmenu);\n          }\n          top.document.getElementById(\u0027special-channel-submenu\u0027).appendChild(document.getElementById(menusMobileSubMenu[i]));\n        }\n      }\n\n      for (i \u003d 0; i \u003c\u003d menusMobilePrincipal.length; i++) {\n        if (document.getElementById(menusMobilePrincipal[i])) {\n          top.document.getElementById(\u0027ad-menu\u0027).appendChild(document.getElementById(menusMobilePrincipal[i]));\n        }\n      }\n      css+\u003d \".featured-menu ul {display: inherit;align-items: inherit;justify-content: inherit;margin: inherit;width: inherit;height: inherit}\";\n    }\n\n    style.appendChild(document.createTextNode(css));\n    top.document.getElementById(\u0027ad-menu\u0027).appendChild(style);\n        \n    if(!desktop){ /* Slider Mobile */\n      if (top.document.getElementById(\u0027sliderMobile\u0027)) {\n        var createDiv \u003d top.document.getElementById(\u0027sliderMobile\u0027);\n      } else {\n        var createDiv \u003d document.createElement(\u0027div\u0027);\n        createDiv.id \u003d \u0027sliderMobile\u0027;\n        if (top.location.href.indexOf(\u0027blog\u0027) !\u003d\u003d -1) {\n          var whereToAppend \u003d top.document.getElementsByClassName(\u0027blog-tdg-main\u0027)[0];\n        } else {\n          var whereToAppend \u003d top.document.getElementsByClassName(\u0027tdg-main\u0027)[0];\n        }\n        whereToAppend.insertBefore(createDiv,whereToAppend.firstChild);\n      }\n\n      if (top.location.href.indexOf(\u0027blog\u0027) !\u003d\u003d -1) {\n        //top.document.getElementById(\u0027blog-wrapper\u0027).style.cssText \u003d \u0027margin-top: 120px !important;\u0027;\n        top.document.getElementById(\u0027blog-wrapper\u0027).style.cssText \u003d \u0027margin-top: 65px !important;\u0027;\n      } else {\n        //top.document.getElementsByClassName(\u0027tdg-main\u0027)[0].style.cssText \u003d \u0027margin-top: 195px !important;\u0027;\n        top.document.getElementsByClassName(\u0027tdg-main\u0027)[0].style.cssText \u003d \u0027margin-top: 65px !important;\u0027;\n      }\n      \n      createDiv.innerHTML \u003d \n\n      \u0027\u003cdiv id\u003d\"selo1Retangular\" class\u003d\"seloRetangular animate__animated\"\u003e\u0027 +\n        `\u003cdiv class\u003d\"texto\"\u003e\u003cp\u003e[%MenuTexto1%]\u003c/p\u003e\u003c/div\u003e` +\n        \u0027\u003cdiv id\u003d\"selo1Oval\" class\u003d\"seloOval\"\u003e\u0027 + \n          \u0027\u003cimg src\u003d\"[%MenuCriativo1%]\" class\u003d\"img\"\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador1%]\u0027 +\n      \u0027\u003c/div\u003e\u0027 +\n      \n      \u0027\u003cdiv id\u003d\"selo2Retangular\" class\u003d\"seloRetangular animate__animated\"\u003e\u0027 +\n        `\u003cdiv class\u003d\"texto\"\u003e\u003cp\u003e[%MenuTexto2%]\u003c/p\u003e\u003c/div\u003e` +\n        \u0027\u003cdiv id\u003d\"selo2Oval\" class\u003d\"seloOval\"\u003e\u0027 + \n          \u0027\u003cimg src\u003d\"[%MenuCriativo2%]\" class\u003d\"img\"\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador2%]\u0027 +\n      \u0027\u003c/div\u003e\u0027 +\n      \n      \u0027\u003cdiv id\u003d\"selo3Retangular\" class\u003d\"seloRetangular animate__animated\"\u003e\u0027 +\n        `\u003cdiv class\u003d\"texto\"\u003e\u003cp\u003e[%MenuTexto3%]\u003c/p\u003e\u003c/div\u003e` +\n        \u0027\u003cdiv id\u003d\"selo3Oval\" class\u003d\"seloOval\"\u003e\u0027 + \n          \u0027\u003cimg src\u003d\"[%MenuCriativo3%]\" class\u003d\"img\"\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador3%]\u0027 +\n      \u0027\u003c/div\u003e\u0027 +\n      \n      \u0027\u003cdiv id\u003d\"selo4Retangular\" class\u003d\"seloRetangular animate__animated\"\u003e\u0027 +\n        `\u003cdiv class\u003d\"texto\"\u003e\u003cp\u003e[%MenuTexto4%]\u003c/p\u003e\u003c/div\u003e` +\n        \u0027\u003cdiv id\u003d\"selo4Oval\" class\u003d\"seloOval\"\u003e\u0027 + \n          \u0027\u003cimg src\u003d\"[%MenuCriativo4%]\" class\u003d\"img\"\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador4%]\u0027 +\n      \u0027\u003c/div\u003e\u0027 +\n      \n      \u0027\u003cdiv id\u003d\"selo5Retangular\" class\u003d\"seloRetangular animate__animated\"\u003e\u0027 +\n        `\u003cdiv class\u003d\"texto\"\u003e\u003cp\u003e[%MenuTexto5%]\u003c/p\u003e\u003c/div\u003e` +\n        \u0027\u003cdiv id\u003d\"selo5Oval\" class\u003d\"seloOval\"\u003e\u0027 + \n          \u0027\u003cimg src\u003d\"[%MenuCriativo5%]\" class\u003d\"img\"\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador5%]\u0027 +\n      \u0027\u003c/div\u003e\u0027 +\n      \n      \u0027\u003cdiv id\u003d\"selo6Retangular\" class\u003d\"seloRetangular animate__animated\"\u003e\u0027 +\n        `\u003cdiv class\u003d\"texto\"\u003e\u003cp\u003e[%MenuTexto6%]\u003c/p\u003e\u003c/div\u003e` +\n        \u0027\u003cdiv id\u003d\"selo6Oval\" class\u003d\"seloOval\"\u003e\u0027 + \n          \u0027\u003cimg src\u003d\"[%MenuCriativo6%]\" class\u003d\"img\"\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador6%]\u0027 +\n      \u0027\u003c/div\u003e\u0027 +\n      \n      \u0027\u003cdiv id\u003d\"selo7Retangular\" class\u003d\"seloRetangular animate__animated\"\u003e\u0027 +\n        `\u003cdiv class\u003d\"texto\"\u003e\u003cp\u003e[%MenuTexto7%]\u003c/p\u003e\u003c/div\u003e` +\n        \u0027\u003cdiv id\u003d\"selo7Oval\" class\u003d\"seloOval\"\u003e\u0027 + \n          \u0027\u003cimg src\u003d\"[%MenuCriativo7%]\" class\u003d\"img\"\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador7%]\u0027 +\n      \u0027\u003c/div\u003e\u0027 +\n      \n      \u0027\u003cdiv id\u003d\"selo8Retangular\" class\u003d\"seloRetangular animate__animated\"\u003e\u0027 +\n        `\u003cdiv class\u003d\"texto\"\u003e\u003cp\u003e[%MenuTexto8%]\u003c/p\u003e\u003c/div\u003e` +\n        \u0027\u003cdiv id\u003d\"selo8Oval\" class\u003d\"seloOval\"\u003e\u0027 + \n          \u0027\u003cimg src\u003d\"[%MenuCriativo8%]\" class\u003d\"img\"\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador8%]\u0027 +\n      \u0027\u003c/div\u003e\u0027 +\n      \n      \u0027\u003cdiv id\u003d\"selo9Retangular\" class\u003d\"seloRetangular animate__animated\"\u003e\u0027 +\n        `\u003cdiv class\u003d\"texto\"\u003e\u003cp\u003e[%MenuTexto9%]\u003c/p\u003e\u003c/div\u003e` +\n        \u0027\u003cdiv id\u003d\"selo9Oval\" class\u003d\"seloOval\"\u003e\u0027 + \n          \u0027\u003cimg src\u003d\"[%MenuCriativo9%]\" class\u003d\"img\"\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador9%]\u0027 +\n      \u0027\u003c/div\u003e\u0027 +\n    \n      \u0027\u003cdiv id\u003d\"selo10Retangular\" class\u003d\"seloRetangular animate__animated\"\u003e\u0027 +\n        `\u003cdiv class\u003d\"texto\"\u003e\u003cp\u003e[%MenuTexto10%]\u003c/p\u003e\u003c/div\u003e` +\n        \u0027\u003cdiv id\u003d\"selo10Oval\" class\u003d\"seloOval\"\u003e\u0027 + \n          \u0027\u003cimg src\u003d\"[%MenuCriativo10%]\" class\u003d\"img\"\u003e\u0027 +\n        \u0027\u003c/div\u003e\u0027 +\n        \u0027[%PixelContador10%]\u0027 +\n      \u0027\u003c/div\u003e\u0027 +\n      \n      \u0027\u003cdiv id\u003d\"controles\"\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"retrocede\"\u003e\u0026lt;\u003c/div\u003e\u0027 +\n        \u0027\u003cdiv class\u003d\"avanca\"\u003e\u0026gt;\u003c/div\u003e\u0027 +\n      \u0027\u003c/div\u003e\u0027;\n    \n      /* Remove Divs que não existem */\n      \n      var menusSlider \u003d [];\n\n      if (\u0027[%Menu1%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada1 \u003c\u003d hoje \u0026\u0026 dataSaida1 \u003e\u003d hoje) {\n        menusSlider.push(top.document.getElementById(\"selo1Retangular\"));\n      } else {\n        top.document.getElementById(\"selo1Retangular\").parentNode.removeChild(top.document.getElementById(\"selo1Retangular\"));\n      }\n\n      if (\u0027[%Menu2%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada2 \u003c\u003d hoje \u0026\u0026 dataSaida2 \u003e\u003d hoje) {\n        menusSlider.push(top.document.getElementById(\"selo2Retangular\"));\n      } else {\n        top.document.getElementById(\"selo2Retangular\").parentNode.removeChild(top.document.getElementById(\"selo2Retangular\"));\n      }\n\n      if (\u0027[%Menu3%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada3 \u003c\u003d hoje \u0026\u0026 dataSaida3 \u003e\u003d hoje) {\n        menusSlider.push(top.document.getElementById(\"selo3Retangular\"));\n      } else {\n        top.document.getElementById(\"selo3Retangular\").parentNode.removeChild(top.document.getElementById(\"selo3Retangular\"));\n      }\n\n      if (\u0027[%Menu4%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada4 \u003c\u003d hoje \u0026\u0026 dataSaida4 \u003e\u003d hoje) {\n        menusSlider.push(top.document.getElementById(\"selo4Retangular\"));\n      } else {\n        top.document.getElementById(\"selo4Retangular\").parentNode.removeChild(top.document.getElementById(\"selo4Retangular\"));\n      }\n\n      if (\u0027[%Menu5%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada5 \u003c\u003d hoje \u0026\u0026 dataSaida5 \u003e\u003d hoje) {\n        menusSlider.push(top.document.getElementById(\"selo5Retangular\"));\n      } else {\n        top.document.getElementById(\"selo5Retangular\").parentNode.removeChild(top.document.getElementById(\"selo5Retangular\"));\n      }\n\n      if (\u0027[%Menu6%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada6 \u003c\u003d hoje \u0026\u0026 dataSaida6 \u003e\u003d hoje) {\n        menusSlider.push(top.document.getElementById(\"selo6Retangular\"));\n      } else {\n        top.document.getElementById(\"selo6Retangular\").parentNode.removeChild(top.document.getElementById(\"selo6Retangular\"));\n      }\n\n      if (\u0027[%Menu7%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada7 \u003c\u003d hoje \u0026\u0026 dataSaida7 \u003e\u003d hoje) {\n        menusSlider.push(top.document.getElementById(\"selo7Retangular\"));\n      } else {\n        top.document.getElementById(\"selo7Retangular\").parentNode.removeChild(top.document.getElementById(\"selo7Retangular\"));\n      }\n\n      if (\u0027[%Menu8%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada8 \u003c\u003d hoje \u0026\u0026 dataSaida8 \u003e\u003d hoje) {\n        menusSlider.push(top.document.getElementById(\"selo8Retangular\"));\n      } else {\n        top.document.getElementById(\"selo8Retangular\").parentNode.removeChild(top.document.getElementById(\"selo8Retangular\"));\n      }\n\n      if (\u0027[%Menu9%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada9 \u003c\u003d hoje \u0026\u0026 dataSaida9 \u003e\u003d hoje) {\n        menusSlider.push(top.document.getElementById(\"selo9Retangular\"));\n      } else {\n        top.document.getElementById(\"selo9Retangular\").parentNode.removeChild(top.document.getElementById(\"selo9Retangular\"));\n      }\n\n      if (\u0027[%Menu10%]\u0027 \u003d\u003d \u0027Ativado\u0027 \u0026\u0026 dataEntrada10 \u003c\u003d hoje \u0026\u0026 dataSaida10 \u003e\u003d hoje) {\n        menusSlider.push(top.document.getElementById(\"selo10Retangular\"));\n      } else {\n        top.document.getElementById(\"selo10Retangular\").parentNode.removeChild(top.document.getElementById(\"selo10Retangular\"));\n      }\n\n      numeroTelas \u003d Math.ceil(menusSlider.length / 3);\n    \n      var css \u003d \u0027\u0027,\n      head \u003d top.document.getElementById(\u0027sliderMobile\u0027),\n      style \u003d document.createElement(\u0027style\u0027);\n      style.type \u003d \u0027text/css\u0027;\n\n      css \u003d \n\n        \u0027body.tdg-home {\u0027 +\n          \u0027background: #fff;\u0027 +\n        \u0027}\u0027 +\n        \n        \u0027.blog-menu{\u0027 + \n      \t\t\u0027margin: 20px auto 30px;\u0027 +\n    \t\t\u0027}\u0027 +\n        \n        \u0027.home {\u0027 +\n          \u0027background: #f0f0f0;\u0027 +\n        \u0027}\u0027 +\n    \n        \u0027.texto{\u0027 +\n          \u0027position: absolute;\u0027 + \n          \u0027text-align: center;\u0027 + \n          \u0027width: 82px;\u0027 + \n          \u0027color: #fff;\u0027 + \n          \u0027font-size: 11px;\u0027 + \n          \u0027text-transform: uppercase;\u0027 + \n          \u0027font-weight: bold;\u0027 +\n        \u0027}\u0027 +\n    \n        \u0027#sliderMobile{\u0027 + \n          \u0027display: grid;\u0027 + \n          \u0027grid-template-columns: 100px repeat(\u0027 + (i - 1) + \u0027, 100px);\u0027 + \n          \u0027grid-column-gap: 12px;\u0027 + \n          \u0027grid-row-gap: 0px;\u0027 + \n          //\u0027position: absolute;\u0027 +\n          \u0027top: 65px;\u0027 + \n          \u0027width: \u0027 + top.screen.width + \u0027px;\u0027 + \n          \u0027padding-left: 13px;\u0027 +\n          \u0027overflow-x: hidden;\u0027 +\n          \u0027background: #fff;\u0027 +\n        \u0027}\u0027 +\n    \n        \u0027.seloRetangular{\u0027 +\n          \u0027width: 100px;\u0027 +\n          \u0027height: 50px;\u0027 +\n          \u0027border-radius: 5px;\u0027 +\n          \u0027top: 20px;\u0027 +\n          \u0027z-index: 1;\u0027 +\n          \u0027position: relative;\u0027 +\n          \u0027box-shadow: 1px 1px 3px 1px #B8B8B8;\u0027 +\n        \u0027}\u0027 +\n    \n        \u0027.seloOval {\u0027 +\n          \u0027width: 40px;\u0027 +\n          \u0027height: 40px;\u0027 +\n          \u0027background: #fff;\u0027 +\n          \u0027text-align: center;\u0027 +\n          \u0027border-radius: 40px;\u0027 +\n          \u0027line-height: 37px;\u0027 +\n          \u0027position: relative;\u0027 +\n          \u0027top: 38px;\u0027 +\n          \u0027text-align: center;\u0027 +\n          \u0027margin: 0 auto;\u0027 +\n          \u0027box-shadow: 1px 3px 8px 0px #888888;\u0027 +\n        \u0027}\u0027 +\n    \n        \u0027#controles{\u0027 +\n          \u0027position: absolute;\u0027 +\n          \u0027z-index: 2;\u0027 +\n          \u0027width: 30px;\u0027 +\n          \u0027height: 30px;\u0027 +\n        \u0027}\u0027 +\n    \n        \u0027.avanca{\u0027 +\n          \u0027width: 25px;\u0027 +\n          \u0027height: 25px;\u0027 +\n          \u0027background: #fff;\u0027 +\n          \u0027border-radius: 25px;\u0027 +\n          \u0027text-align: center;\u0027 +\n          \u0027line-height: 25px;\u0027 +\n          \u0027font-weight: bold;\u0027 +\n          \u0027font-size: 25px;\u0027 +\n          \u0027color: #a2a2a2;\u0027 +\n          \u0027z-index: 3;\u0027 +\n          \u0027position: absolute;\u0027 +\n          \u0027top: 32.5px;\u0027 +\n        \u0027}\u0027 +\n    \n        \u0027.retrocede{\u0027 +\n          \u0027display: none;\u0027 +\n          \u0027width: 25px;\u0027 +\n          \u0027height: 25px;\u0027 +\n          \u0027background: #fff;\u0027 +\n          \u0027border-radius: 25px;\u0027 +\n          \u0027text-align: center;\u0027 +\n          \u0027line-height: 25px;\u0027 +\n          \u0027font-weight: bold;\u0027 +\n          \u0027font-size: 25px;\u0027 +\n          \u0027color: #a2a2a2;\u0027 +\n          \u0027z-index: 3;\u0027 +\n          \u0027position: absolute;\u0027 +\n          \u0027top: 32.5px;\u0027 +\n        \u0027}\u0027 +\n    \n        \u0027.img{\u0027 + \n          \u0027max-height: 75%;\u0027 +\n          \u0027border: 0;\u0027 +\n          \u0027vertical-align: middle;\u0027 +\n        \u0027}\u0027 +\n    \n        \u0027#selo1Retangular{background: url([%selo1RetangularImg%])}\u0027 +\n        \u0027#selo2Retangular{background: url([%selo2RetangularImg%])}\u0027 + \n        \u0027#selo3Retangular{background: url([%selo3RetangularImg%])}\u0027 + \n        \u0027#selo4Retangular{background: url([%selo4RetangularImg%])}\u0027 + \n        \u0027#selo5Retangular{background: url([%selo5RetangularImg%])}\u0027 + \n        \u0027#selo6Retangular{background: url([%selo6RetangularImg%])}\u0027 + \n        \u0027#selo7Retangular{background: url([%selo7RetangularImg%])}\u0027 + \n        \u0027#selo8Retangular{background: url([%selo8RetangularImg%])}\u0027 + \n        \u0027#selo9Retangular{background: url([%selo9RetangularImg%])}\u0027 + \n        \u0027#selo10Retangular{background: url([%selo10RetangularImg%])}\u0027;\n    \n      style.appendChild(document.createTextNode(css));\n      head.appendChild(style);\n      \n      /* Deixa o texto responsivo de acordo com o tamanho do mesmo */\n    \n      top.document.querySelectorAll(\u0027.texto\u0027).forEach(function(retorno){\n        retorno.style.cssText \u003d \u0027margin-top: \u0027 + (((50 - retorno.getElementsByTagName(\u0027p\u0027)[0].getClientRects()[0].height) / 2) - 5) + \u0027px;margin-left: \u0027 + ((retorno.parentNode.getClientRects()[0].width - 82) /2) + \u0027px\u0027;\n      });\n    \n      /* Coloca animate.css no site para transições */\n    \n      var head \u003d top.document.getElementsByTagName(\u0027head\u0027)[0];\n      var dCreate \u003d document.createElement(\u0027link\u0027);\n      dCreate.rel \u003d \u0027stylesheet\u0027;\n      dCreate.href \u003d \u0027https://opec.itdg.com.br/opec/teste/animate.min.css?cache\u003d\u0027 + Math.floor(Math.random() * 9999999);\n      head.appendChild(dCreate);\n    \n      /* Arruma posicionamento dos botões de controle */ \n    \n      //Retroceder\n      if (menusSlider.length !\u003d 0) {\n        top.document.getElementsByClassName(\u0027retrocede\u0027)[0].style.cssText \u003d \u0027left: \u0027 + (menusSlider[0].getClientRects()[0].left - 13) + \u0027px;\u0027;\n      } else {\n        top.document.getElementsByClassName(\u0027retrocede\u0027)[0].style.cssText \u003d \"display: none;\";\n      }\n    \n      //Avançar\n      if (menusSlider.length \u003e 3) {\n        top.document.getElementsByClassName(\u0027avanca\u0027)[0].style.cssText \u003d \u0027left: \u0027 + (top.screen.width - 40) + \u0027px;\u0027;\n      } else {\n        top.document.getElementsByClassName(\u0027avanca\u0027)[0].style.cssText \u003d \"display: none;\";\n      }\n      \n      /* Botões de avançar + retroceder */\n    \n      var aumenta \u003d 1; // variável responsável por sabermos em qual tela estamos, 1 para a primeira tela e 2 para a segunda etc\n      \n      //Função do botão avança\n    \n      top.document.getElementsByClassName(\u0027avanca\u0027)[0].addEventListener(\u0027click\u0027, function(){\n        aumenta++;\n        if (aumenta \u003d\u003d numeroTelas) {\n          top.document.getElementsByClassName(\u0027avanca\u0027)[0].style.display \u003d \u0027none\u0027;\n        }\n        top.document.getElementsByClassName(\u0027retrocede\u0027)[0].style.display \u003d \u0027block\u0027;\n        \n        \n        if(aumenta \u003d\u003d 2){\n          ga(\u0027send\u0027, \u0027event\u0027, \u0027Menu Canais Especiais\u0027, \u0027Seta do Slide\u0027, \u0027Seta1\u0027);\n          if (menusSlider[0]) menusSlider[0].classList.add(\u0027animate__backOutLeft\u0027);\n          if (menusSlider[1]) menusSlider[1].classList.add(\u0027animate__backOutLeft\u0027);\n          if (menusSlider[2]) menusSlider[2].classList.add(\u0027animate__backOutLeft\u0027);\n          if (menusSlider[3]) menusSlider[3].classList.add(\u0027animate__backOutLeft\u0027);\n    \n          var intervalo \u003d setTimeout(function(){\n            if (menusSlider[0]) menusSlider[0].classList.remove(\u0027animate__backOutLeft\u0027);\n            if (menusSlider[1]) menusSlider[1].classList.remove(\u0027animate__backOutLeft\u0027);\n            if (menusSlider[2]) menusSlider[2].classList.remove(\u0027animate__backOutLeft\u0027);\n            if (menusSlider[3]) menusSlider[3].classList.remove(\u0027animate__backOutLeft\u0027);\n    \n            if (menusSlider[0]) menusSlider[0].style.cssText \u003d \u0027display:none;\u0027;\n            if (menusSlider[1]) menusSlider[1].style.cssText \u003d \u0027display:none;\u0027;\n            if (menusSlider[2]) menusSlider[2].style.cssText \u003d \u0027display:none;\u0027;\n    \n            if (menusSlider[4]) menusSlider[4].classList.add(\u0027animate__backInLeft\u0027);\n            if (menusSlider[5]) menusSlider[5].classList.add(\u0027animate__backInLeft\u0027);\n            if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backInLeft\u0027);\n            if (menusSlider[7]) menusSlider[7].classList.add(\u0027animate__backInLeft\u0027);\n          },150);\n    \n          var intervalo2 \u003d setTimeout(function(){\n            if (menusSlider[4]) menusSlider[4].classList.remove(\u0027animate__backInLeft\u0027);\n            if (menusSlider[5]) menusSlider[5].classList.remove(\u0027animate__backInLeft\u0027);\n            if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backInLeft\u0027);\n            if (menusSlider[7]) menusSlider[7].classList.remove(\u0027animate__backInLeft\u0027);\n          },150);\n        }\n    \n        if(aumenta \u003d\u003d 3){\n          ga(\u0027send\u0027, \u0027event\u0027, \u0027Menu Canais Especiais\u0027, \u0027Seta do Slide\u0027, \u0027Seta2\u0027);\n          if (menusSlider[3]) menusSlider[3].classList.add(\u0027animate__backOutLeft\u0027);\n          if (menusSlider[4]) menusSlider[4].classList.add(\u0027animate__backOutLeft\u0027);\n          if (menusSlider[5]) menusSlider[5].classList.add(\u0027animate__backOutLeft\u0027);\n          if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backOutLeft\u0027);\n    \n          var intervalo \u003d setTimeout(function(){\n            if (menusSlider[3]) menusSlider[3].classList.remove(\u0027animate__backOutLeft\u0027);\n            if (menusSlider[4]) menusSlider[4].classList.remove(\u0027animate__backOutLeft\u0027);\n            if (menusSlider[5]) menusSlider[5].classList.remove(\u0027animate__backOutLeft\u0027);\n            if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backOutLeft\u0027);\n    \n            if (menusSlider[3]) menusSlider[3].style.cssText \u003d \u0027display:none;\u0027;\n            if (menusSlider[4]) menusSlider[4].style.cssText \u003d \u0027display:none;\u0027;\n            if (menusSlider[5]) menusSlider[5].style.cssText \u003d \u0027display:none;\u0027;\n    \n            if (menusSlider[4]) menusSlider[4].classList.add(\u0027animate__backInLeft\u0027);\n            if (menusSlider[5]) menusSlider[5].classList.add(\u0027animate__backInLeft\u0027);\n            if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backInLeft\u0027);\n            if (menusSlider[7]) menusSlider[7].classList.add(\u0027animate__backInLeft\u0027);\n          },150);\n    \n          var intervalo2 \u003d setTimeout(function(){\n            if (menusSlider[4]) menusSlider[4].classList.remove(\u0027animate__backInLeft\u0027);\n            if (menusSlider[5]) menusSlider[5].classList.remove(\u0027animate__backInLeft\u0027);\n            if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backInLeft\u0027);\n            if (menusSlider[7]) menusSlider[7].classList.remove(\u0027animate__backInLeft\u0027);\n          },150);\n        }\n    \n        if(aumenta \u003d\u003d 4){\n          ga(\u0027send\u0027, \u0027event\u0027, \u0027Menu Canais Especiais\u0027, \u0027Seta do Slide\u0027, \u0027Seta3\u0027);\n          if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backOutLeft\u0027);\n          if (menusSlider[7]) menusSlider[7].classList.add(\u0027animate__backOutLeft\u0027);\n          if (menusSlider[8]) menusSlider[8].classList.add(\u0027animate__backOutLeft\u0027);\n          if (menusSlider[9]) menusSlider[9].classList.add(\u0027animate__backOutLeft\u0027);\n    \n          var intervalo \u003d setTimeout(function(){\n            if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backOutLeft\u0027);\n            if (menusSlider[7]) menusSlider[7].classList.remove(\u0027animate__backOutLeft\u0027);\n            if (menusSlider[8]) menusSlider[8].classList.remove(\u0027animate__backOutLeft\u0027);\n            if (menusSlider[9]) menusSlider[9].classList.remove(\u0027animate__backOutLeft\u0027);\n    \n            if (menusSlider[6]) menusSlider[6].style.cssText \u003d \u0027display:none;\u0027;\n            if (menusSlider[7]) menusSlider[7].style.cssText \u003d \u0027display:none;\u0027;\n            if (menusSlider[8]) menusSlider[8].style.cssText \u003d \u0027display:none;\u0027;\n    \n            if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backInLeft\u0027);\n            if (menusSlider[7]) menusSlider[7].classList.add(\u0027animate__backInLeft\u0027);\n            if (menusSlider[8]) menusSlider[8].classList.add(\u0027animate__backInLeft\u0027);\n            if (menusSlider[9]) menusSlider[9].classList.add(\u0027animate__backInLeft\u0027);\n    \n          },150);\n    \n          var intervalo2 \u003d setTimeout(function(){\n            if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backInLeft\u0027);\n            if (menusSlider[7]) menusSlider[7].classList.remove(\u0027animate__backInLeft\u0027);\n            if (menusSlider[8]) menusSlider[8].classList.remove(\u0027animate__backInLeft\u0027);\n            if (menusSlider[9]) menusSlider[9].classList.remove(\u0027animate__backInLeft\u0027);\n          },150);\n    \n          top.document.getElementsByClassName(\u0027avanca\u0027)[0].style.display \u003d \u0027none\u0027;\n        }\n      });\n    \n      //Função do botão retroceder\n    \n      top.document.getElementsByClassName(\u0027retrocede\u0027)[0].addEventListener(\u0027click\u0027, function(){\n        aumenta--;\n        top.document.getElementsByClassName(\u0027avanca\u0027)[0].style.display \u003d \u0027block\u0027;\n\n        if(aumenta \u003d\u003d 1){\n          if (menusSlider[3]) menusSlider[3].classList.add(\u0027animate__backOutRight\u0027);\n          if (menusSlider[4]) menusSlider[4].classList.add(\u0027animate__backOutRight\u0027);\n          if (menusSlider[5]) menusSlider[5].classList.add(\u0027animate__backOutRight\u0027);\n          if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backOutRight\u0027);\n    \n          var intervalo \u003d setTimeout(function(){\n            if (menusSlider[0]) menusSlider[0].style.display \u003d \u0027block\u0027;\n            if (menusSlider[1]) menusSlider[1].style.display \u003d \u0027block\u0027;\n            if (menusSlider[2]) menusSlider[2].style.display \u003d \u0027block\u0027;\n            if (menusSlider[3]) menusSlider[3].style.display \u003d \u0027block\u0027;\n    \n            if (menusSlider[0]) menusSlider[0].classList.add(\u0027animate__backInLeft\u0027);\n            if (menusSlider[1]) menusSlider[1].classList.add(\u0027animate__backInLeft\u0027);\n            if (menusSlider[2]) menusSlider[2].classList.add(\u0027animate__backInLeft\u0027);\n            if (menusSlider[3]) menusSlider[3].classList.add(\u0027animate__backInLeft\u0027);\n          },150);\n    \n          var intervalo2 \u003d setTimeout(function(){\n            if (menusSlider[0]) menusSlider[0].classList.remove(\u0027animate__backInLeft\u0027);\n            if (menusSlider[1]) menusSlider[1].classList.remove(\u0027animate__backInLeft\u0027);\n            if (menusSlider[2]) menusSlider[2].classList.remove(\u0027animate__backInLeft\u0027);\n            if (menusSlider[3]) menusSlider[3].classList.remove(\u0027animate__backInLeft\u0027);\n    \n            if (menusSlider[3]) menusSlider[3].classList.remove(\u0027animate__backOutRight\u0027);\n            if (menusSlider[4]) menusSlider[4].classList.remove(\u0027animate__backOutRight\u0027);\n            if (menusSlider[5]) menusSlider[5].classList.remove(\u0027animate__backOutRight\u0027);\n            if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backOutRight\u0027);\n          },150);\n          top.document.getElementsByClassName(\u0027retrocede\u0027)[0].style.display \u003d \u0027none\u0027;\n        }\n\n        if(aumenta \u003d\u003d 2){\n          if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backOutRight\u0027);\n          if (menusSlider[7]) menusSlider[7].classList.add(\u0027animate__backOutRight\u0027);\n          if (menusSlider[8]) menusSlider[8].classList.add(\u0027animate__backOutRight\u0027);\n          if (menusSlider[9]) menusSlider[9].classList.add(\u0027animate__backOutRight\u0027);\n    \n          var intervalo \u003d setTimeout(function(){\n            if (menusSlider[3]) menusSlider[3].style.display \u003d \u0027block\u0027;\n            if (menusSlider[4]) menusSlider[4].style.display \u003d \u0027block\u0027;\n            if (menusSlider[5]) menusSlider[5].style.display \u003d \u0027block\u0027;\n            if (menusSlider[6]) menusSlider[6].style.display \u003d \u0027block\u0027;\n    \n            if (menusSlider[3]) menusSlider[3].classList.add(\u0027animate__backInLeft\u0027);\n            if (menusSlider[4]) menusSlider[4].classList.add(\u0027animate__backInLeft\u0027);\n            if (menusSlider[5]) menusSlider[5].classList.add(\u0027animate__backInLeft\u0027);\n            if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backInLeft\u0027);\n          },150);\n          \n          var intervalo2 \u003d setTimeout(function(){\n            if (menusSlider[3]) menusSlider[3].classList.remove(\u0027animate__backInLeft\u0027);\n            if (menusSlider[4]) menusSlider[4].classList.remove(\u0027animate__backInLeft\u0027);\n            if (menusSlider[5]) menusSlider[5].classList.remove(\u0027animate__backInLeft\u0027);\n            if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backInLeft\u0027);\n    \n            if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backOutRight\u0027);\n            if (menusSlider[7]) menusSlider[7].classList.remove(\u0027animate__backOutRight\u0027);\n            if (menusSlider[8]) menusSlider[8].classList.remove(\u0027animate__backOutRight\u0027);\n            if (menusSlider[9]) menusSlider[9].classList.remove(\u0027animate__backOutRight\u0027);\n          },150);\n          top.document.getElementsByClassName(\u0027avanca\u0027)[0].style.display \u003d \u0027block\u0027;\n        }\n    \n        if(aumenta \u003d\u003d 3){\n          if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backOutRight\u0027);\n          if (menusSlider[7]) menusSlider[7].classList.add(\u0027animate__backOutRight\u0027);\n          if (menusSlider[8]) menusSlider[8].classList.add(\u0027animate__backOutRight\u0027);\n          if (menusSlider[9]) menusSlider[9].classList.add(\u0027animate__backOutRight\u0027);\n    \n          var intervalo \u003d setTimeout(function(){\n            if (menusSlider[6]) menusSlider[6].style.display \u003d \u0027block\u0027;\n            if (menusSlider[7]) menusSlider[7].style.display \u003d \u0027block\u0027;\n            if (menusSlider[8]) menusSlider[8].style.display \u003d \u0027block\u0027;\n            if (menusSlider[9]) menusSlider[9].style.display \u003d \u0027block\u0027;\n    \n            if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backInLeft\u0027);\n            if (menusSlider[7]) menusSlider[7].classList.add(\u0027animate__backInLeft\u0027);\n            if (menusSlider[8]) menusSlider[8].classList.add(\u0027animate__backInLeft\u0027);\n            if (menusSlider[9]) menusSlider[9].classList.add(\u0027animate__backInLeft\u0027);\n          },150);\n    \n          var intervalo2 \u003d setTimeout(function(){\n            if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backInLeft\u0027);\n            if (menusSlider[7]) menusSlider[7].classList.remove(\u0027animate__backInLeft\u0027);\n            if (menusSlider[8]) menusSlider[8].classList.remove(\u0027animate__backInLeft\u0027);\n            if (menusSlider[9]) menusSlider[9].classList.remove(\u0027animate__backInLeft\u0027);\n    \n            if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backOutRight\u0027);\n            if (menusSlider[7]) menusSlider[7].classList.remove(\u0027animate__backOutRight\u0027);\n            if (menusSlider[8]) menusSlider[8].classList.remove(\u0027animate__backOutRight\u0027);\n            if (menusSlider[9]) menusSlider[9].classList.remove(\u0027animate__backOutRight\u0027);\n          },150);\n        }\n      });\n      \n      /* Faz com que as animações também ocorram quando tivermos swipe, tanto para a esquerda quanto para a direita, esquerda \u003d avançar e direita \u003d retroceder */\n    \n      var container \u003d top.document.getElementById(\u0027sliderMobile\u0027);\n    \n      container.addEventListener(\"touchstart\", startTouch, false);\n      container.addEventListener(\"touchmove\", moveTouch, false);\n    \n      var initialX \u003d null;\n      var initialY \u003d null;\n    \n      function startTouch(e) {\n        initialX \u003d e.touches[0].clientX;\n        initialY \u003d e.touches[0].clientY;\n      };\n    \n      function moveTouch(e) {\n        if (initialX \u003d\u003d\u003d null) {\n          return;\n        }\n    \n        if (initialY \u003d\u003d\u003d null) {\n          return;\n        }\n    \n        var currentX \u003d e.touches[0].clientX;\n        var currentY \u003d e.touches[0].clientY;\n    \n        var diffX \u003d initialX - currentX;\n        var diffY \u003d initialY - currentY;\n    \n        if (Math.abs(diffX) \u003e Math.abs(diffY)) {\n          if (diffX \u003e 0) {\n            aumenta++;\n\n            if (aumenta \u003d\u003d numeroTelas) {\n              top.document.getElementsByClassName(\u0027avanca\u0027)[0].style.display \u003d \u0027none\u0027;\n            }\n\n            if(aumenta \u003e numeroTelas){\n              aumenta \u003d numeroTelas;\n            }\n\n            top.document.getElementsByClassName(\u0027retrocede\u0027)[0].style.display \u003d \u0027block\u0027;\n            \n            if(aumenta \u003d\u003d 2){\n              ga(\u0027send\u0027, \u0027event\u0027, \u0027Menu Canais Especiais\u0027, \u0027Seta do Slide\u0027, \u0027Seta1\u0027);\n              if (menusSlider[0]) menusSlider[0].classList.add(\u0027animate__backOutLeft\u0027);\n              if (menusSlider[1]) menusSlider[1].classList.add(\u0027animate__backOutLeft\u0027);\n              if (menusSlider[2]) menusSlider[2].classList.add(\u0027animate__backOutLeft\u0027);\n              if (menusSlider[3]) menusSlider[3].classList.add(\u0027animate__backOutLeft\u0027);\n          \n              var intervalo \u003d setTimeout(function(){\n                if (menusSlider[0]) menusSlider[0].classList.remove(\u0027animate__backOutLeft\u0027);\n                if (menusSlider[1]) menusSlider[1].classList.remove(\u0027animate__backOutLeft\u0027);\n                if (menusSlider[2]) menusSlider[2].classList.remove(\u0027animate__backOutLeft\u0027);\n                if (menusSlider[3]) menusSlider[3].classList.remove(\u0027animate__backOutLeft\u0027);\n          \n                if (menusSlider[0]) menusSlider[0].style.cssText \u003d \u0027display:none;\u0027;\n                if (menusSlider[1]) menusSlider[1].style.cssText \u003d \u0027display:none;\u0027;\n                if (menusSlider[2]) menusSlider[2].style.cssText \u003d \u0027display:none;\u0027;\n          \n                if (menusSlider[4]) menusSlider[4].classList.add(\u0027animate__backInLeft\u0027);\n                if (menusSlider[5]) menusSlider[5].classList.add(\u0027animate__backInLeft\u0027);\n                if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backInLeft\u0027);\n                if (menusSlider[7]) menusSlider[7].classList.add(\u0027animate__backInLeft\u0027);\n              },150);\n          \n              var intervalo2 \u003d setTimeout(function(){\n                if (menusSlider[4]) menusSlider[4].classList.remove(\u0027animate__backInLeft\u0027);\n                if (menusSlider[5]) menusSlider[5].classList.remove(\u0027animate__backInLeft\u0027);\n                if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backInLeft\u0027);\n                if (menusSlider[7]) menusSlider[7].classList.remove(\u0027animate__backInLeft\u0027);\n              },150);\n            }\n          \n            if(aumenta \u003d\u003d 3){\n              ga(\u0027send\u0027, \u0027event\u0027, \u0027Menu Canais Especiais\u0027, \u0027Seta do Slide\u0027, \u0027Seta2\u0027);\n              if (menusSlider[3]) menusSlider[3].classList.add(\u0027animate__backOutLeft\u0027);\n              if (menusSlider[4]) menusSlider[4].classList.add(\u0027animate__backOutLeft\u0027);\n              if (menusSlider[5]) menusSlider[5].classList.add(\u0027animate__backOutLeft\u0027);\n              if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backOutLeft\u0027);\n          \n              var intervalo \u003d setTimeout(function(){\n                if (menusSlider[3]) menusSlider[3].classList.remove(\u0027animate__backOutLeft\u0027);\n                if (menusSlider[4]) menusSlider[4].classList.remove(\u0027animate__backOutLeft\u0027);\n                if (menusSlider[5]) menusSlider[5].classList.remove(\u0027animate__backOutLeft\u0027);\n                if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backOutLeft\u0027);\n          \n                if (menusSlider[3]) menusSlider[3].style.cssText \u003d \u0027display:none;\u0027;\n                if (menusSlider[4]) menusSlider[4].style.cssText \u003d \u0027display:none;\u0027;\n                if (menusSlider[5]) menusSlider[5].style.cssText \u003d \u0027display:none;\u0027;\n          \n                if (menusSlider[4]) menusSlider[4].classList.add(\u0027animate__backInLeft\u0027);\n                if (menusSlider[5]) menusSlider[5].classList.add(\u0027animate__backInLeft\u0027);\n                if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backInLeft\u0027);\n                if (menusSlider[7]) menusSlider[7].classList.add(\u0027animate__backInLeft\u0027);\n              },150);\n          \n              var intervalo2 \u003d setTimeout(function(){\n                if (menusSlider[4]) menusSlider[4].classList.remove(\u0027animate__backInLeft\u0027);\n                if (menusSlider[5]) menusSlider[5].classList.remove(\u0027animate__backInLeft\u0027);\n                if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backInLeft\u0027);\n                if (menusSlider[7]) menusSlider[7].classList.remove(\u0027animate__backInLeft\u0027);\n              },150);\n            }\n          \n            if(aumenta \u003d\u003d 4){\n              ga(\u0027send\u0027, \u0027event\u0027, \u0027Menu Canais Especiais\u0027, \u0027Seta do Slide\u0027, \u0027Seta3\u0027);\n              if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backOutLeft\u0027);\n              if (menusSlider[7]) menusSlider[7].classList.add(\u0027animate__backOutLeft\u0027);\n              if (menusSlider[8]) menusSlider[8].classList.add(\u0027animate__backOutLeft\u0027);\n              if (menusSlider[9]) menusSlider[9].classList.add(\u0027animate__backOutLeft\u0027);\n          \n              var intervalo \u003d setTimeout(function(){\n                if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backOutLeft\u0027);\n                if (menusSlider[7]) menusSlider[7].classList.remove(\u0027animate__backOutLeft\u0027);\n                if (menusSlider[8]) menusSlider[8].classList.remove(\u0027animate__backOutLeft\u0027);\n                if (menusSlider[9]) menusSlider[9].classList.remove(\u0027animate__backOutLeft\u0027);\n          \n                if (menusSlider[6]) menusSlider[6].style.cssText \u003d \u0027display:none;\u0027;\n                if (menusSlider[7]) menusSlider[7].style.cssText \u003d \u0027display:none;\u0027;\n                if (menusSlider[8]) menusSlider[8].style.cssText \u003d \u0027display:none;\u0027;\n          \n                if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backInLeft\u0027);\n                if (menusSlider[7]) menusSlider[7].classList.add(\u0027animate__backInLeft\u0027);\n                if (menusSlider[8]) menusSlider[8].classList.add(\u0027animate__backInLeft\u0027);\n                if (menusSlider[9]) menusSlider[9].classList.add(\u0027animate__backInLeft\u0027);\n              },150);\n          \n              var intervalo2 \u003d setTimeout(function(){\n                if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backInLeft\u0027);\n                if (menusSlider[7]) menusSlider[7].classList.remove(\u0027animate__backInLeft\u0027);\n                if (menusSlider[8]) menusSlider[8].classList.remove(\u0027animate__backInLeft\u0027);\n                if (menusSlider[9]) menusSlider[9].classList.remove(\u0027animate__backInLeft\u0027);\n              },150);\n          \n              top.document.getElementsByClassName(\u0027avanca\u0027)[0].style.display \u003d \u0027none\u0027;\n            }\n          } else {\n            aumenta--;\n            top.document.getElementsByClassName(\u0027avanca\u0027)[0].style.display \u003d \u0027block\u0027;\n            if(aumenta \u003c\u003d0){\n              aumenta \u003d 1;\n            }\n\n            if(aumenta \u003d\u003d 1){\n              if (menusSlider[3]) menusSlider[3].classList.add(\u0027animate__backOutRight\u0027);\n              if (menusSlider[4]) menusSlider[4].classList.add(\u0027animate__backOutRight\u0027);\n              if (menusSlider[5]) menusSlider[5].classList.add(\u0027animate__backOutRight\u0027);\n              if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backOutRight\u0027);\n        \n              var intervalo \u003d setTimeout(function(){\n                if (menusSlider[0]) menusSlider[0].style.display \u003d \u0027block\u0027;\n                if (menusSlider[1]) menusSlider[1].style.display \u003d \u0027block\u0027;\n                if (menusSlider[2]) menusSlider[2].style.display \u003d \u0027block\u0027;\n                if (menusSlider[3]) menusSlider[3].style.display \u003d \u0027block\u0027;\n        \n                if (menusSlider[0]) menusSlider[0].classList.add(\u0027animate__backInLeft\u0027);\n                if (menusSlider[1]) menusSlider[1].classList.add(\u0027animate__backInLeft\u0027);\n                if (menusSlider[2]) menusSlider[2].classList.add(\u0027animate__backInLeft\u0027);\n                if (menusSlider[3]) menusSlider[3].classList.add(\u0027animate__backInLeft\u0027);\n              },150);\n        \n              var intervalo2 \u003d setTimeout(function(){\n                if (menusSlider[0]) menusSlider[0].classList.remove(\u0027animate__backInLeft\u0027);\n                if (menusSlider[1]) menusSlider[1].classList.remove(\u0027animate__backInLeft\u0027);\n                if (menusSlider[2]) menusSlider[2].classList.remove(\u0027animate__backInLeft\u0027);\n                if (menusSlider[3]) menusSlider[3].classList.remove(\u0027animate__backInLeft\u0027);\n        \n                if (menusSlider[3]) menusSlider[3].classList.remove(\u0027animate__backOutRight\u0027);\n                if (menusSlider[4]) menusSlider[4].classList.remove(\u0027animate__backOutRight\u0027);\n                if (menusSlider[5]) menusSlider[5].classList.remove(\u0027animate__backOutRight\u0027);\n                if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backOutRight\u0027);\n              },150);\n              top.document.getElementsByClassName(\u0027retrocede\u0027)[0].style.display \u003d \u0027none\u0027;\n            }\n\n            if(aumenta \u003d\u003d 2){\n              if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backOutRight\u0027);\n              if (menusSlider[7]) menusSlider[7].classList.add(\u0027animate__backOutRight\u0027);\n              if (menusSlider[8]) menusSlider[8].classList.add(\u0027animate__backOutRight\u0027);\n              if (menusSlider[9]) menusSlider[9].classList.add(\u0027animate__backOutRight\u0027);\n        \n              var intervalo \u003d setTimeout(function(){\n                if (menusSlider[3]) menusSlider[3].style.display \u003d \u0027block\u0027;\n                if (menusSlider[4]) menusSlider[4].style.display \u003d \u0027block\u0027;\n                if (menusSlider[5]) menusSlider[5].style.display \u003d \u0027block\u0027;\n                if (menusSlider[6]) menusSlider[6].style.display \u003d \u0027block\u0027;\n        \n                if (menusSlider[3]) menusSlider[3].classList.add(\u0027animate__backInLeft\u0027);\n                if (menusSlider[4]) menusSlider[4].classList.add(\u0027animate__backInLeft\u0027);\n                if (menusSlider[5]) menusSlider[5].classList.add(\u0027animate__backInLeft\u0027);\n                if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backInLeft\u0027);\n              },150);\n              \n              var intervalo2 \u003d setTimeout(function(){\n                if (menusSlider[3]) menusSlider[3].classList.remove(\u0027animate__backInLeft\u0027);\n                if (menusSlider[4]) menusSlider[4].classList.remove(\u0027animate__backInLeft\u0027);\n                if (menusSlider[5]) menusSlider[5].classList.remove(\u0027animate__backInLeft\u0027);\n                if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backInLeft\u0027);\n        \n                if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backOutRight\u0027);\n                if (menusSlider[7]) menusSlider[7].classList.remove(\u0027animate__backOutRight\u0027);\n                if (menusSlider[8]) menusSlider[8].classList.remove(\u0027animate__backOutRight\u0027);\n                if (menusSlider[9]) menusSlider[9].classList.remove(\u0027animate__backOutRight\u0027);\n              },150);\n              top.document.getElementsByClassName(\u0027avanca\u0027)[0].style.display \u003d \u0027block\u0027;\n            }\n        \n            if(aumenta \u003d\u003d 3){\n              if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backOutRight\u0027);\n              if (menusSlider[7]) menusSlider[7].classList.add(\u0027animate__backOutRight\u0027);\n              if (menusSlider[8]) menusSlider[8].classList.add(\u0027animate__backOutRight\u0027);\n              if (menusSlider[9]) menusSlider[9].classList.add(\u0027animate__backOutRight\u0027);\n        \n              var intervalo \u003d setTimeout(function(){\n                if (menusSlider[6]) menusSlider[6].style.display \u003d \u0027block\u0027;\n                if (menusSlider[7]) menusSlider[7].style.display \u003d \u0027block\u0027;\n                if (menusSlider[8]) menusSlider[8].style.display \u003d \u0027block\u0027;\n                if (menusSlider[9]) menusSlider[9].style.display \u003d \u0027block\u0027;\n        \n                if (menusSlider[6]) menusSlider[6].classList.add(\u0027animate__backInLeft\u0027);\n                if (menusSlider[7]) menusSlider[7].classList.add(\u0027animate__backInLeft\u0027);\n                if (menusSlider[8]) menusSlider[8].classList.add(\u0027animate__backInLeft\u0027);\n                if (menusSlider[9]) menusSlider[9].classList.add(\u0027animate__backInLeft\u0027);\n              },150);\n        \n              var intervalo2 \u003d setTimeout(function(){\n                if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backInLeft\u0027);\n                if (menusSlider[7]) menusSlider[7].classList.remove(\u0027animate__backInLeft\u0027);\n                if (menusSlider[8]) menusSlider[8].classList.remove(\u0027animate__backInLeft\u0027);\n                if (menusSlider[9]) menusSlider[9].classList.remove(\u0027animate__backInLeft\u0027);\n        \n                if (menusSlider[6]) menusSlider[6].classList.remove(\u0027animate__backOutRight\u0027);\n                if (menusSlider[7]) menusSlider[7].classList.remove(\u0027animate__backOutRight\u0027);\n                if (menusSlider[8]) menusSlider[8].classList.remove(\u0027animate__backOutRight\u0027);\n                if (menusSlider[9]) menusSlider[9].classList.remove(\u0027animate__backOutRight\u0027);\n              },150);\n            }\n          }\n        }    \n        initialX \u003d null;\n        initialY \u003d null;\n        e.preventDefault();\n      };\n    \n      if(top.document.getElementById(\u0027selo1Retangular\u0027)){\n        top.document.getElementById(\u0027selo1Retangular\u0027).addEventListener(\u0027click\u0027, function(){\n          window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink1%]\u0027,\u0027_blank\u0027);\n        });\n      }\n    \n      if(top.document.getElementById(\u0027selo2Retangular\u0027)){\n        top.document.getElementById(\u0027selo2Retangular\u0027).addEventListener(\u0027click\u0027, function(){\n          window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink2%]\u0027,\u0027_blank\u0027);\n        });\n      }\n      \n      if(top.document.getElementById(\u0027selo3Retangular\u0027)){\n        top.document.getElementById(\u0027selo3Retangular\u0027).addEventListener(\u0027click\u0027, function(){\n          window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink3%]\u0027,\u0027_blank\u0027);\n        });\n      }\n      \n      if(top.document.getElementById(\u0027selo4Retangular\u0027)){\n        top.document.getElementById(\u0027selo4Retangular\u0027).addEventListener(\u0027click\u0027, function(){\n          window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink4%]\u0027,\u0027_blank\u0027);\n        });\n      }\n      \n      if(top.document.getElementById(\u0027selo5Retangular\u0027)){\n        top.document.getElementById(\u0027selo5Retangular\u0027).addEventListener(\u0027click\u0027, function(){\n          window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink5%]\u0027,\u0027_blank\u0027);\n        });\n      }\n      \n      if(top.document.getElementById(\u0027selo6Retangular\u0027)){\n        top.document.getElementById(\u0027selo6Retangular\u0027).addEventListener(\u0027click\u0027, function(){\n          window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink6%]\u0027,\u0027_blank\u0027);\n        });\n      }\n      \n      if(top.document.getElementById(\u0027selo7Retangular\u0027)){\n        top.document.getElementById(\u0027selo7Retangular\u0027).addEventListener(\u0027click\u0027, function(){\n          window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink7%]\u0027,\u0027_blank\u0027);\n        });\n      }\n      \n      if(top.document.getElementById(\u0027selo8Retangular\u0027)){\n        top.document.getElementById(\u0027selo8Retangular\u0027).addEventListener(\u0027click\u0027, function(){\n          window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink8%]\u0027,\u0027_blank\u0027);\n        });\n      }\n      \n      if(top.document.getElementById(\u0027selo9Retangular\u0027)){\n        top.document.getElementById(\u0027selo9Retangular\u0027).addEventListener(\u0027click\u0027, function(){\n          window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink9%]\u0027,\u0027_blank\u0027);\n        });\n      }\n    \n      if(top.document.getElementById(\u0027selo10Retangular\u0027)){\n        top.document.getElementById(\u0027selo10Retangular\u0027).addEventListener(\u0027click\u0027, function(){\n          window.open(\u0027%%CLICK_URL_UNESC%%[%MenuLink10%]\u0027,\u0027_blank\u0027);\n        });\n      }\n    }\n  \n    if (\u0027[%Teste%]\u0027 \u003d\u003d \u0027Sim\u0027) {\n      googletag.pubads().setTargeting(\u0027ad\u0027, [\u0027teste30itens\u0027]);\n    }\n    \n    if(\"[%PauseAllAutoRefreshSlots%]\" \u003d\u003d \"Enabled\"){\n      var pos \u003d Object.keys(top._molotovAds.slots);\n      for(i\u003d0;i\u003cpos.length;i++){\n        top._molotovAds.slots[pos[i]].autoRefreshEnabled \u003d false;\n      }\n    } \n    \n    if(\"[%PauseOnlyThisSlot%]\" \u003d\u003d \"Enabled\"){\n      var name \u003d window.frameElement.parentNode.parentElement.id;\n      top._molotovAds.slots[name].autoRefreshEnabled \u003d false;\n    }\n    console.log(\u0027Atualizado dia 03/01/2022 às 13:25h\u0027);\n\u003c/script\u003e\n[%ScriptCustomizado%]",
+  "omidPartnerName": "",
+  "type": "USER_DEFINED",
+  "isInterstitial": true,
+  "isNativeEligible": false,
+  "isNativeVideoEligible": false,
+  "isSafeFrameCompatible": false
+}
