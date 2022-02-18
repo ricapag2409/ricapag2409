@@ -1,7 +1,7 @@
 <?php
 // Definimos o nome de usuário e senha de acesso
-$usuario = "nadia";
-$senha = "09Na24Ri";
+$usuario = "Usuário"; //Digite aqui seu usuário
+$senha = "Senha"; // Digite aqui sua senha
  
 // Criamos uma função que exibirá uma mensagem de erro caso os dados estejam errados
 function erro(){
