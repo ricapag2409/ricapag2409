@@ -2,7 +2,7 @@ Link para coisas úteis: https://meleu.sh/
 
 PRE INSTALACAO
 
-Quando for formatar a HD com estrutura UEFI, adicionar na HD BIOS_BOOT para que o grub consiga fazer a configuração ideal.
+Quando for formatar a HD com estrutura UEFI, adicionar na HD de onde quer instalar o Linux, uma partição BIOS_BOOT para que o Grub consiga fazer a configuração ideal.
 
 POS INSTALACAO
 
@@ -151,18 +151,14 @@ LibreOffice -> SlackBuilds
 Filezilla -> baixar do site o source e gravar a extracao em uma outra pasta por exemplo
 Zoom -> SlackBuilds
 OpenRGB -> Baixar diretamente do site
-Spotify -> slackBuilds
-KDocker -> slackBuilds
+Spotify -> SlackBuilds
+Conky -> SlackBuilds
+jq -> SlackBuilds
+rclone -> SlackBuilds
+rclone-browser -> SlackBuilds
+KDocker -> SlackBuilds
 
 -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
-
-COMO MINIMIZAR O SPOTIFY NO SYSTRAY
-
-1) Baixar o KDocker no slackBuild
-2) no atalho de execução do Spotify, colocar kdocker -q -o -l -i /usr/share/icons/elementary-xfce/apps/128/spotify-client.png -n Spotify spotify %U
-
--x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
-
 
 COMO INSTALAR O DRIVER DA NVIDIA
 
@@ -189,8 +185,8 @@ Instala novo pacote no Slackware -> upgradepkg --install-new arquivo.txz
 
 Atualiza pacote já existente com o mesmo nome, por exemplo o Chrome -> upgradepkg --install-new --reinstall
 
-Descompacta tar.gz -> tar xvzf arquivo.tar.gz
-Descompacta tar.bz2 -> tar jxvf arquivo.tar.bz2
+Descompacta tar.gz -> tar -xvzf arquivo.tar.gz
+Descompacta tar.bz2 -> tar -jxvf arquivo.tar.bz2
 
 -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
 
