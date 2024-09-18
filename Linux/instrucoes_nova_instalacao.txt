@@ -100,6 +100,8 @@ PATH="/usr/local/bin:/usr/bin:/bin:/usr/games:/sbin:/usr/sbin"
 
 INSTALAR MARIADB
 
+Antes de instalar o MariaDB,  não coloque para iniciar após o boot, antes de entrar no ambiente gráfico, realizar as configurações abaixo:
+
 1) mysql_install_db
 2) chown -R mysql:mysql /var/lib/mysql
 3) chmod 755 /etc/rc.d/rc.mysqld
@@ -210,3 +212,4 @@ Comando:
 
 Troque slackware-*live*.iso pelo nome da ISO e o X em  /dev/sdX para o link do pen drive.
 Se for atualizar sem perder os dados , utilize a flag -r
+
