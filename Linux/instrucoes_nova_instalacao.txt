@@ -1,0 +1,213 @@
+
+Link para coisas úteis: https://meleu.sh/
+
+POS INSTALACAO
+
+Antes de sair da instalacao fazer o seguinte
+
+chroot /mnt
+
+grub-install /dev/sda (aqui pode mudar, dependendo da hd, sugiro um lsblk para identificar)
+OBS.: se der pau no momento da instalação do grub, e uma mensagem como EFI Variable not avaliable, coloque uma flag --removable no grub-install
+grub-mkconfig -o /boot/grub/grub.cfg
+exit
+reboot
+
+Isto fara com que o Grub seja instalado logo apos o termino da instalacao, somente necessitando apos o reboot habilitar o os-prober.
+
+Editar o arquivo /etc/default/grub e no final do arquivo colocar o seguinte comando GRUB_DISABLE_OS_PROBER="false"
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+
+Como configurar UUID caso seja numa instalacao movel, ex. pendrive, HD externa, etc.
+
+1) Logue como root.
+2) blkid
+3) Escolha o UUID de onde ele está, exemplo, sda2, copie o UUID e jogue dentro de /etc/fstab, lembrando que devemos remover o /dev/sda1,3, etc de onde ele está localizado, assim ele associa o UUID sempre ao dispositivo.
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+
+COMO ALTERAR A LINGUAGEM DO SLACKWARE
+
+Acessar /etc/profile.d/lang.sh e alterar en_US.UTF-8 para pt_BR.UTF-8
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+
+COMO CRIAR ALIAS NO SLACKWARE
+1) Acesse a pasta /etc/profile.d/
+2) Crie um novo arquivo com o nome desejado, neste caso vou usar como alias.sh
+3) De permissão através do chmod 775 para o arquivo
+4) Crie os alias
+5) Para atualizar use source /etc/profile.d/arquivo.sh
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+
+COMO ATUALIZAR O SISTEMA USANDO O SLACKPKG
+
+Acessar /etc/slackpkg/mirrors e editar os mirrors do slackpkg colocando o do slackjeff (https://slackjeff.com.br/slackware/slackware64-current/)
+
+Rodar slackpkg update gpg / slackpkg update / slackpkg upgrade-all
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+
+COMO DEIXAR O TECLADO NO PADRAO ABNT2 COM CEDILHA
+
+cp /usr/share/X11/xorg.conf.d/90-keyboard-layout-evdev.conf /etc/X11/xorg.conf.d/ e colocar
+  Option "XkbLayout"  "brcaps"
+  Option "XkbModel"   "abnt2"
+  Option "XkbVariant" "abnt2"
+  Option "XkbOptions" "terminate:ctrl_alt_bksp"
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+
+CORRIGIR ERRO DO CAPS LOCK QUANDO USAMOS O CAPS LOCK COMO SHIFT
+
+Criar dentro de /usr/share/X11/xkb/symbols um arquivo chamado brcaps e colocar o seguinte valor:
+  default
+  xkb_symbols "abnt2" {
+    include "br(abnt2)"
+    name[Group1]="Portuguese (Brazil) caps";
+    key <CAPS> {
+      type="ALPHABETIC",
+      repeat=No,
+      symbols[Group1]= [ Caps_Lock, Caps_Lock ],
+      actions[Group1]= [ LockMods(modifiers=Lock),LockMods(modifiers=Shift+Lock,affect=unlock) ]
+   };
+};
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+
+CONFIGURAR SUDOERS
+
+1) Colocar usuario criado dentro do sudoers da seguinte forma:
+
+2) Entrar como root com nano /etc/group e na última linha adicionar sudo:x:1000:usuario
+
+3) Entrar como root com nano /etc/sudoers e descomentar a linha:
+
+## Uncomment to allow members of group sudo to execute any command
+%sudo ALL=(ALL) ALL 
+
+4) Entrar como root com nano /etc/profile e modificar a linha abaixo para o valor:
+
+# Set the default system $PATH:
+PATH="/usr/local/bin:/usr/bin:/bin:/usr/games:/sbin:/usr/sbin"
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+
+INSTALAR MARIADB
+
+1) mysql_install_db
+2) chown -R mysql:mysql /var/lib/mysql
+3) chmod 755 /etc/rc.d/rc.mysqld
+4) /etc/rc.d/rc.mysqld start
+5) mysqladmin -u root password ''
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+
+CONFIGURAR PHP
+
+1) Editar '/etc/php.ini' e colocar em date.timezone = America/Sao_Paulo
+2) nano /etc/httpd/httpd.conf e descomentar a linha Include /etc/httpd/mod_php.conf
+3) Alterar ServerName www.example.com:80 para localhost:80
+4) <IfModule dir_module> DirectoryIndex index.html index.php</IfModule> adicionar o index.php
+5) apachectl restart
+6) chmod 755 /etc/rc.d/rc.httpd
+7) Procure por ServerName, localizado deixa da seguinte forma:
+ServerName 127.0.0.1
+PS.: se o diretório do htdocs for diferente, no root colocar a localização do diretório absoluto
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+
+INTEGRAR APPIMAGE NO SLACKWARE
+
+1) Acessar o site https://github.com/TheAssassin/AppImageLauncher/releases
+2) baixar o rpm e rpm2txz appimagelauncher-2.1.3-travis975.7408819.x86_64.rpm
+3) $ sudo upgradepkg --install-new appimagelauncher-2.1.3-travis975.7408819.x86_64.txz
+4) mkdir ~/Applications
+5) Colocar os appimages dentro da pasta criada
+6) Para instalar programas do AppImage, modifique as permissões do arquivo .appimage para chmod 755 programa.appimage
+7) Botão direito do mouse em cima do arquivo e coloque em abrir com AppImageLauncher
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+
+CONFIGURAR SENSORES DE TEMPERATURA
+
+1) Rodar no terminal sensors-detect
+2) Após o término ele vai mostrar o nome dos sensores, entrar em /etc/rc.d/rc.modules e inserir /sbin/modprobe e o nome do sensor.
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+
+PROGRAMAS NO LINUX
+
+Google Chrome -> Baixar do site e converter o rpm para txz
+Google Chat -> Entrar no chat pelo Chrome e instalar como web app
+Terminal -> Já vem
+Visual Studio -> baixar do site e gerar um txz atraves do rpm
+LibreOffice -> SlackBuilds
+Filezilla -> baixar do site o source e gravar a extracao em uma outra pasta por exemplo
+Zoom -> SlackBuilds
+OpenRGB -> Baixar diretamente do site
+Spotify -> slackBuilds
+KDocker -> slackBuilds
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+
+COMO MINIMIZAR O SPOTIFY NO SYSTRAY
+
+1) Baixar o KDocker no slackBuild
+2) no atalho de execução do Spotify, colocar kdocker -q -o -l -i /usr/share/icons/elementary-xfce/apps/128/spotify-client.png -n Spotify spotify %U
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+
+
+COMO INSTALAR O DRIVER DA NVIDIA
+
+1) Baixar o driver pelo site oficila da NVIDIA
+2) Executar o arquivo fora do terminal gráfico utilizando SH nomedoarquivo.run
+3) Ele vai pedir para negativar o nouveu, faça isso, antes de instalar reinicie o computador.
+4) Reiniciado execute o comando 2 novamente para que o mesmo seja instalado.
+5) Reinicie novamente para ver se a alteração surtiu efeito.
+6) Para saber se estamos rodando o NVIDIA, execute GREP "NVIDIA" \var\log\Xorg.0.log
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+
+COMANDOS LINUX
+
+Altera para KDE, XFCE, etc -> xwmconfig
+
+Altera layout do teclado -> setxkbmap -model abnt2 -layout br
+
+Altera o tipo de login, se grafico ou texto, se nao alterar ele vem automaticamente como 3 e devemos digitar startx -> sudo nano /etc/inittab
+
+Remove packages -> removepkg
+
+Instala novo pacote no Slackware -> upgradepkg --install-new arquivo.txz
+
+Atualiza pacote já existente com o mesmo nome, por exemplo o Chrome -> upgradepkg --install-new --reinstall
+
+Descompacta tar.gz -> tar xvzf arquivo.tar.gz
+Descompacta tar.bz2 -> tar jxvf arquivo.tar.bz2
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x
+
+LIVESLAK
+
+Baixe as ISOs em
+http://bear.alienbase.nl/mirrors/slackware-live/
+
+Bonus legais:
+http://bear.alienbase.nl/mirrors/slackware-live/bonus/
+
+Mais informações
+https://alien.slackbook.org/blog/slackware-live-edition/
+
+Criar um USB Boot persistente com a ISO, use o script iso2usb.sh
+
+http://www.slackware.com/~alien/liveslak/iso2usb.sh
+
+Comando:
+ ./iso2usb.sh -i slackware-*live*.iso -o /dev/sdX
+
+Troque slackware-*live*.iso pelo nome da ISO e o X em  /dev/sdX para o link do pen drive.
+Se for atualizar sem perder os dados , utilize a flag -r
