@@ -1,5 +1,8 @@
-
 Link para coisas úteis: https://meleu.sh/
+
+PRE INSTALACAO
+
+Quando for formatar a HD com estrutura UEFI, adicionar na HD BIOS_BOOT para que o grub consiga fazer a configuração ideal.
 
 POS INSTALACAO
 
